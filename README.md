@@ -1,6 +1,6 @@
 # 概览
 
-* [产品简介](/USDP/intro)
+* [产品简介](/USDP/intro.md)
 * 操作指南
     * [集群管理](/USDP/operate/cluster)
     * [节点管理](/USDP/operate/node)

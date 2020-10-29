@@ -27,8 +27,7 @@
 
 - **Master节点**
 
-    管理节点，建议部署服务的master节点和一些管理、可视化服务。
-    除了基础服务zookeeper、Journalnode、NameNode、Resourcemanager、Hmaster、Hive的管理端部署在Master上外，一些可视化和管理组件（如Hue、Oozie、、Airflow）也建议安装于Master节点
+    管理节点，主要用来部署zookeeper、Journalnode、NameNode、Resourcemanager、Hmaster、Hive等管理服务，可视化组件如Hue、oozie也建议部署在Master节点上。
 
 - **core节点**
 
@@ -63,10 +62,19 @@
 
 ###### 8.2 添加服务和组件
     在右上角选择添加服务和组件，开始部署服务。
-![](/images/输入登录信息.png)
+![](/images/添加服务和组件.png)
 
 ###### 8.3 选择服务
-    您可以在“服务组合方案”从推荐方案A\B\C中进行选择，或“自定义”您需要的服务，其中“监控”服务是默认必须选择的，无法取消。如下图所示：
+    您可以在“服务组合方案”从推荐方案A\B\C中进行选择，或“自定义”您需要的服务，其中“监控”服务是默认必须选择的，无法取消
+    节点名称usdp-***-masster*的节点建议用来部署zookeeper、Journalnode、NameNode、Resourcemanager、Hmaster、Hive等服务和组件的master节点，可视化和调度组件如Hue、oozie、kibana、zkui也建议部署在Master节点上。
+
+    节点名称usdp-***-core*核心节点，用于存储数据（HDFS）与运行任务。建议部署datanode、nodemanager、regionserver、presto work、impala。
+
+    节点名称usdp-***-task*的节点用于部署计算资源，建议用来部署Nodemanager、Client
+    
+    节点名称usdp-***-monitor*的节点建议用来部署AlterManager、Grafana、InfluxDB、NodeExporter、Prometheus、USDPMonitor等监控服务
+
+    如下图所示：
  ![](/images/选择服务.png)
 
 ###### 8.4 选择组件安装

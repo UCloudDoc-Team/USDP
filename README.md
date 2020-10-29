@@ -6,6 +6,9 @@
     * [节点管理](/USDP/operate/node)
     * [服务管理](/USDP/operate/service)
     * [监控管理](/USDP/operate/monitor)
+* 开发指南
+    * [服务部署简介](/USDP/developer/intro)
+    * [USDP开发指南-HDFS](/USDP/developer/HDFS)
 * [产品价格](/USDP/price)
 
 

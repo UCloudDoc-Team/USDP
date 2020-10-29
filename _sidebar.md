@@ -1,4 +1,4 @@
-<div class="sidebar_title icon_uhadoop"> 智能大数据平台 USDP </div>
+<div class="sidebar_title icon__uhadoop"> 智能大数据平台 USDP </div>
 
 * [产品简介](/USDP/intro.md)
 * 操作指南

@@ -38,6 +38,7 @@
      用于补充计算资源，建议只部署Nodemanager
 
 - **Monitor节点**
+
     用来部署AlterManager、Grafana、InfluxDB、NodeExporter、Prometheus、USDPMonitor等监控服务
 
 #### 6 访问设置
@@ -66,6 +67,14 @@
 
 ###### 8.3 选择服务
     您可以在“服务组合方案”从推荐方案A\B\C中进行选择，或“自定义”您需要的服务，其中“监控”服务是默认必须选择的，无法取消
+
+
+    如下图所示：
+ ![](/images/选择服务.png)
+
+###### 8.4 选择组件安装
+    由于选项非常多，建议采用“智能推荐”的方式进行选择，或者在“智能推荐”的基础上进行修改。
+  
     节点名称usdp-***-masster*的节点建议用来部署zookeeper、Journalnode、NameNode、Resourcemanager、Hmaster、Hive等服务和组件的master节点，可视化和调度组件如Hue、oozie、kibana、zkui也建议部署在Master节点上。
 
     节点名称usdp-***-core*核心节点，用于存储数据（HDFS）与运行任务。建议部署datanode、nodemanager、regionserver、presto work、impala。
@@ -73,12 +82,7 @@
     节点名称usdp-***-task*的节点用于部署计算资源，建议用来部署Nodemanager、Client
     
     节点名称usdp-***-monitor*的节点建议用来部署AlterManager、Grafana、InfluxDB、NodeExporter、Prometheus、USDPMonitor等监控服务
-
-    如下图所示：
- ![](/images/选择服务.png)
-
-###### 8.4 选择组件安装
-    由于选项非常多，建议采用“智能推荐”的方式进行选择，或者在“智能推荐”的基础上进行修改。如下图所示：
+    
  ![](/images/选择组件安装节点.png)
  
  ###### 8.5 部署信息总览

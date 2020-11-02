@@ -8,12 +8,5 @@
     * [监控管理](/USDP/operate/monitor)
 * 开发指南
     * [服务部署简介](/USDP/developer/intro)
-    * [USDP开发指南](/USDP/developer/hdfs)
+    * [USDP开发指南-HDFS](/USDP/developer/hdfs)
 * [产品价格](/USDP/price)
-
-
-
-
-
-
-

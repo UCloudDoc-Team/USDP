@@ -82,11 +82,12 @@
     由于选项非常多，建议采用“智能推荐”的方式进行选择，或者在“智能推荐”的基础上进行修改。
     
     以下，USDP建议，请您参考：
+    *  NameNode建议安装在usdp-***-masster*的节点上，否则会出现NameNode出现异常，主从切换失败
     * 节点名称usdp-***-masster*的节点，建议用于部署zookeeper、Journalnode、NameNode、Resourcemanager、Hmaster、Hive等服务和组件的master节点，可视化和调度组件如Hue、oozie、kibana、zkui也建议部署在Master节点上。
     * 节点名称usdp-***-core*核心节点，建议用于存储数据（HDFS）与运行任务。建议部署datanode、nodemanager、regionserver、presto work、impala。
     * 节点名称usdp-***-task*的节点，建议用于部署计算资源，建议用来部署Nodemanager、Client。
     * 节点名称usdp-***-monitor*的节点，建议用于部署AlterManager、Grafana、InfluxDB、NodeExporter、Prometheus、USDPMonitor等监控服务。
-    
+   
     您也可根据您的需要，进行灵活规划并实时部署。
     
  ![](/images/选择组件安装节点.png)

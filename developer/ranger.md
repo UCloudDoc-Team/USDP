@@ -65,7 +65,7 @@ http://usdp-xxx-master1:6080/login.jsp
 
 在 HDFS 条目中，点击 “加号” 添加 Service，如下图所示：
 
-<img src="..\images\\image-20201106131208683.png" alt="image-20201106131208683" style="zoom:50%;" />
+<img src="..\images\image-20201106131208683.png" alt="image-20201106131208683" style="zoom:50%;" />
 
 并在 Service Name 输入框中填入如下值：（注意，此处必须为此值）
 
@@ -106,11 +106,11 @@ policy.download.auth.users: hadoop
 
 配置完成后如下图所示：
 
-![image-20201106131950006](..\images\\image-20201106131950006.png)
+![image-20201106131950006](..\images\image-20201106131950006.png)
 
 然后点击 Test Connection 按钮，如果得到如下图所示样例，则表示成功。
 
-![image-20201106132041822](..\images\\image-20201106132041822.png)
+![image-20201106132041822](..\images\image-20201106132041822.png)
 
 最后，点击 Add 按钮即可。
 
@@ -120,11 +120,11 @@ policy.download.auth.users: hadoop
 
 在 Ranger Web UI 中，点击 Settings-Add New User 添加测试用户，如下图所示：
 
-![image-20201106133930992](..\images\\image-20201106133930992.png)
+![image-20201106133930992](..\images\image-20201106133930992.png)
 
 编辑内容如下图所示：
 
-![image-20201106134013185](..\images\\image-20201106134013185.png)
+![image-20201106134013185](..\images\image-20201106134013185.png)
 
 ``注：Select Role 中，选择 User 类型，而非 Admin 类型。``
 
@@ -166,19 +166,19 @@ drwxr-xr-x   - hadoop supergroup          0 2020-11-06 11:28 /user
 
 如下图所示，即可进入编辑页面：
 
-![image-20201106132157001](..\images\\image-20201106132157001.png)
+![image-20201106132157001](..\images\image-20201106132157001.png)
 
 ### 3.2 删除默认规则
 
 如下图所示：
 
-![image-20201106132231930](..\images\\image-20201106132231930.png)
+![image-20201106132231930](..\images\image-20201106132231930.png)
 
 ### 3.3 添加自定义规则
 
 点击右上角的“Add New Policy” 即可添加默认规则，如下图所示：
 
-![image-20201106132317649](..\images\\image-20201106132317649.png)
+![image-20201106132317649](..\images\image-20201106132317649.png)
 
 ### 3.4 配置 Policy Details
 
@@ -188,7 +188,7 @@ drwxr-xr-x   - hadoop supergroup          0 2020-11-06 11:28 /user
 
 最终配置如下图所示：
 
-![image-20201106134404122](..\images\\image-20201106134404122.png)
+![image-20201106134404122](..\images\image-20201106134404122.png)
 
 ### 3.5 配置权限类型
 
@@ -196,17 +196,17 @@ drwxr-xr-x   - hadoop supergroup          0 2020-11-06 11:28 /user
 
 * 配置允许的权限
 
-  <img src="..\images\\image-20201106132922759.png" alt="image-20201106132922759" style="zoom:80%;" />
+  <img src="..\images\image-20201106132922759.png" alt="image-20201106132922759" style="zoom:80%;" />
 
 * 配置拒绝的权限
 
-  ![image-20201106134453012](..\images\\image-20201106134453012.png)
+  ![image-20201106134453012](..\images\image-20201106134453012.png)
 
 ### 3.6 查看配置完成的权限
 
 上述配置完成后，点击 Add，即可完成添加，并回到权限概览页面，如下图所示：
 
-![image-20201106134520978](..\images\\image-20201106134520978.png)
+![image-20201106134520978](..\images\image-20201106134520978.png)
 
 ``注：权限添加后，大约 1 分钟之后才会生效。``
 

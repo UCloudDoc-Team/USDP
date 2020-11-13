@@ -109,7 +109,7 @@ openvpn --daemon --config client.ovpn
 
 ### 配置hosts
 
-确保服务端和客户端里，集群的所有节点的主机名和IP相匹配，方便通过浏览器访问大数据组件提供的原生UI服务，如HDFS UI、Yarn UI、Spark UI等，需在客户端hosts中添加如下示例内容，格式：“集群节点内网ip	主机名”
+确保服务端和客户端里，集群的所有节点的主机名和IP相匹配，便于客户端通过浏览器访问大数据组件提供的原生UI服务，如HDFS UI、Spark UI等，需在客户端hosts文件中添加如下示例内容，格式：“集群节点内网ip	主机名”
 
     10.10.229.204 usdp-2gz2ny-core3 
     10.10.240.154 usdp-2gz2ny-master2 

@@ -1,26 +1,34 @@
 
 # 配置openvpn
 
-按以下步骤，可以在绑定EIP的uhost安装openvpn，下面以centos7操作系统示例：
+为保障云端大数据集群环境安全，防止受到来自互联网的攻击、病毒等威胁带来的侵害和数据安全隐患，建议您在使用云端服务时，能对云端环境配置相对严苛的安全防护措施，此问题不容忽视。
 
-## 1.服务端
+为便于开发者、维护人员等能便捷的对云端大数据环境操作和管理，我们推荐您在云端与您的办公内网/PC端之间，搭建VPN服务，可按以下步骤，在绑定EIP的UHost主机安装openvpn服务，下面以centos7操作系统示例：
 
-  1： 创建一个云主机并绑定EIP，并为防火墙开放1194端口，选择udp协议
-  
-  2：从github下载自动部署脚本（使用其中的openvpn-install.sh脚本），git地址：`https://github.com/Nyr/openvpn-install`
-  
+## VPN服务端
+
+### 1. 环境准备
+
+[创建一台UHost云主机](https://docs.ucloud.cn/uhost/newuser/briefguide)及[创建一个EIP](https://docs.ucloud.cn/unet/eip/guide)，并为UHost云主机绑定EIP，为防火墙开放1194端口，选择udp协议，此处参见[防火墙操作指南](https://docs.ucloud.cn/unet/firewall/guide)
+
+### 2. VPN安装包及脚本下载
+
+从github下载自动部署脚本（使用其中的openvpn-install.sh脚本），git地址：`https://github.com/Nyr/openvpn-install`
+
   ```
     git clone https://github.com/Nyr/openvpn-install.git   
   ```
-  3. 直接运行 openvpn-install.sh脚本
-  
+### 3. 配置VPN服务
+
+直接运行 openvpn-install.sh脚本
+
   ``` 
     cd openvpn-install
     sh openvpn-install.sh
   ```
-  
+
 这里会自动识别eip的地址，如果需要修改对外server的IP，可以手动输入，如果使用默认，直接回车：  
-  
+
 ```
 Welcome to this OpenVPN road warrior installer!
 
@@ -67,23 +75,23 @@ Data Base Updated
 
 client added. Configuration available in: /root/client.ovpn
 ```
-## 2.客户端
+## VPN客户端
 
 把server部署时生成的客户端用户文件，拷贝到本地。
 
-### 2.1 MAC
+### MAC端
 
 下载安装Tunnelblick[客户端下载](https://tunnelblick.net/downloads.html)
 
 将client.ovpn拖到Tunnelblick就可以访问vpn server。
 
-### 2.2 Windows
+### Windows端
 
 可以直接在openvpn官网下载客户端，选择自己操作系统对应的版本[客户端下载](https://openvpn.net/community-downloads/)
 
 通过openvpn上点击import profile选择client.ovpn，把对应的信息加载进去
 
-### 2.3 Liunx
+### Liunx端
 
 安装openvpn
 
@@ -97,7 +105,9 @@ yum install -y openvpn
 openvpn --daemon --config client.ovpn
 ```
 
-## 3. 配置hosts
+## 大数据客户端
+
+### 配置hosts
 
 确保服务端和客户端里，所有节点的主机名和IP相匹配，方便在浏览器服务。例如：
 

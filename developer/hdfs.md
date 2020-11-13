@@ -39,14 +39,13 @@ HDFS 是一个具有高容错、高吞吐特性的分布式文件系统。HDFS �
 
 WebHDFS 提供 HDFS 的 RESTful 接口，可通过此接口进行 HDFS 文件操作。使用 WebHDFS 时，客户端是先通过 Namenode 节点获取文件所在的 Datanode 地址，再通过与 Datanode 节点进行数据交互。
 
-- ### 上传文件
-
+### 2.1 上传文件
 
 USDP 集群默认开启 HDFS NameNode 组件的高可用，同一时刻，只有一个节点处于 [active] 状态，另外一个 NameNode 组件处于 [standby] 状态。
 
 ``注：在进行 WebHDFS 接口操作时，请先确保所调用接口的 NameNode 处于 [active] 状态。``
 
-​        -    准备数据
+- 准备数据
 
 ~~~shell
 touch ucloud.txt

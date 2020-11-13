@@ -46,7 +46,7 @@ USDP 集群默认开启 HDFS NameNode 组件的高可用，同一时刻，只有
 
 ``注：在进行 WebHDFS 接口操作时，请先确保所调用接口的 NameNode 处于 [active] 状态。``
 
-- - 准备数据
+​        -    准备数据
 
 ~~~shell
 touch ucloud.txt

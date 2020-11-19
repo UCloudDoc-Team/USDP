@@ -57,7 +57,7 @@ http://usdp-xxx-master1:6080/login.jsp
 
 此时可以查看到如下页面：
 
-<img src="../images/image-20201106130935692.png" alt="image-20201106130935692" style="zoom:67%;" />
+![image-20201106130935692](../images/image-20201106130935692.png)
 
 ``注：默认登录的账号：admin，密码为：admin``
 
@@ -65,7 +65,7 @@ http://usdp-xxx-master1:6080/login.jsp
 
 在 HDFS 条目中，点击 “加号” 添加 Service，如下图所示：
 
-<img src="../images/image-20201106131208683.png" alt="image-20201106131208683" style="zoom:50%;" />
+![image-20201106131208683](../images/image-20201106131208683.png)
 
 并在 Service Name 输入框中填入如下值：（注意，此处必须为此值）
 

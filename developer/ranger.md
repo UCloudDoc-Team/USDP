@@ -144,7 +144,7 @@ policy.download.auth.users: hadoop
 
 #### 1.3.2 在 Linux 中添加用户
 
-在 Linux 中，需要添加与上述配置相同的用户，命令如下：
+通过 ssh 在集群节点上，添加与上述配置相同的用户test1，命令如下：
 
 ~~~shell
 useradd test1
@@ -152,13 +152,13 @@ useradd test1
 
 #### 1.3.3  验证用户当前权限
 
-在 Linux 中，使用如下命令，验证 test1 用户拥有对应权限：
+使用如下命令，验证刚添加的 test1 用户是否拥有对应权限：
 
 ~~~shell
 su -s /bin/bash test1 -c "/srv/udp/1.0.0.0/hdfs/bin/hdfs dfs -ls /"
 ~~~
 
-返回如下：
+返回结果如下：
 
 ~~~shell
 drwxrwxr-x   - hadoop supergroup          0 2020-11-06 11:28 /flink-completed-jobs
@@ -170,27 +170,27 @@ drwxrwx---   - hadoop supergroup          0 2020-11-06 11:28 /tmp
 drwxr-xr-x   - hadoop supergroup          0 2020-11-06 11:28 /user
 ~~~
 
-此时证明 test1 有对根目录的访问权限。
+此时证明 test1 用户对HDFS的根目录拥有访问权限。
 
 ### 1.4  编辑权限
 
-接下来以配置拒绝 hadoop 用户访问为例进行说明。
+接下来，以配置拒绝 test1 用户访问 HDFS 为例，进行示例说明。
 
 #### 1.4.1 进入编辑页面
 
-如下图所示，即可进入编辑页面：
+如下图所示，进入HDFS条目的“ranger-hdfs-service”策略编辑页面：
 
 ![image-20201106132157001](../images/image-20201106132157001.png)
 
 #### 1.4.2 删除默认规则
 
-如下图所示：
+首先，删除Ranger默认的权限策略，如下图所示：
 
 ![image-20201106132231930](../images/image-20201106132231930.png)
 
 #### 1.4.3 添加自定义规则
 
-点击右上角的 <kbd>Add New Policy</kbd> 即可添加默认规则，如下图所示：
+点击右上角的 <kbd>Add New Policy</kbd> 即可添加自定义权限策略规则，如下图所示：
 
 ![image-20201106132317649](../images/image-20201106132317649.png)
 
@@ -198,35 +198,37 @@ drwxr-xr-x   - hadoop supergroup          0 2020-11-06 11:28 /user
 
 在 Policy Name 属性中，建议键入比较有标识度的规则名称，例如：deny_test1_all，即，拒绝 test1 用户所有对 HDFS 的操作。
 
-同时，在 Resource Path 中输入：/，并键入回车，同时，要确保 recursive 开关开启。
+同时，在 Resource Path 中输入HDFS的根目录：/  并键入回车，同时，要确保 recursive 滑块处于开启状态。
 
-最终配置如下图所示：
+最终配置信息，如下图所示：
 
 ![image-20201106134404122](../images/image-20201106134404122.png)
 
 #### 1.4.5 配置权限类型
 
-配置权限可以分为两种类别：允许的权限、拒绝的权限。本例中，以配置拒绝的权限为例进行说明，即，拒绝 test1 用户对 HDFS 根目录及其子目录下的所有操作。如下 “配置拒绝权限” 所示。
+配置权限可以分为两种类别：允许的权限、拒绝的权限。
 
-* 配置允许的权限
+本例中，以配置拒绝的权限为例进行说明，即拒绝 test1 用户对 HDFS 根目录及其子目录下的所有操作。参考如下 “配置拒绝权限” 所示进行配置操作。
+
+* 配置允许的权限，如下图所示：
 
   ![image-20201106132922759](../images/image-20201106132922759.png)
 
-* 配置拒绝的权限
+* 配置拒绝的权限，如下图所示：
 
   ![image-20201106134453012](../images/image-20201106134453012.png)
 
 #### 1.4.6 查看配置完成的权限
 
-上述配置完成后，点击 Add，即可完成添加，并回到权限概览页面，如下图所示：
+完成上述配置项填写后，点击 <kbd>Add</kbd> 按钮保存，即已完成添加自定义策略配置，并回到权限策略概览页面，如下图所示：
 
 ![image-20201106134520978](../images/image-20201106134520978.png)
 
-``注：权限添加后，大约 1 分钟之后才会生效。``
+``注：权限添加后，大约需要 1 分钟左右即会生效。``
 
 ### 1.5  验证权限配置
 
-接下来，通过 ssh 访问到安装了 HDFS 服务组件的节点，进行 shell 操作来验证权限是否生效。
+接下来，通过 ssh 访问集群中安装了 HDFS 服务组件的“任意”节点，进行 shell 操作来验证权限是否生效。
 
 试验命令如下：
 
@@ -234,7 +236,13 @@ drwxr-xr-x   - hadoop supergroup          0 2020-11-06 11:28 /user
 su -s /bin/bash test1 -c "/srv/udp/1.0.0.0/hdfs/bin/hdfs dfs -ls /"
 ~~~
 
-返回结果如下：
+若返回如下信息，说明当前节点本地无“test1”用户
+
+```shell
+su: user test2 does not exist
+```
+
+参见1.3.2节，执行 “useradd test1”添加test1用户后再重试上述命令，返回结果如下：
 
 ~~~shell
 ls: Permission denied: user=test1, access=EXECUTE, inode="/"

@@ -49,9 +49,9 @@ ranger-plugin-classloader-1.2.0.jar -> /srv/udp/1.0.0.0/hdfs/ranger-hdfs-plugin/
 
 进入左侧导航栏“节点管理”中，分别点击节点域名为“usdp-xxx-master1”、“usdp-xxx-master2”进入节点详情页，点击“组件管理”，寻找到“NameNode1”、“NameNode2”组件后，点击响应的组件操作栏 <kbd>重启</kbd> 按钮。
 
-![image-20201124345370l130](../images/image-20201124345370l130.png)
+![image-20201124345370l130](../images/image-20201124345370l131.png)
 
-![image-2020112434256h964](../images/image-2020112434256h964.png)
+![image-2020112434256h964](../images/image-2020112434256h961.png)
 
 ### 1.2 配置权限
 

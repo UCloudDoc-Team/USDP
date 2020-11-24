@@ -1,12 +1,31 @@
 # USDP 开发指南-RANGER
 
-RANGER 是 Hadoop 生态中的权限管理框架，可以对 HDFS、Hive 等组件进行细粒度的权限访问控制，并且开发者可以通过其自带的 WebUI 进行授权管理操作。
+​		RANGER 是 Hadoop 生态中的一种权限管理框架，通过其可以实现对 HDFS、Hive 等生态组件进行细粒度的权限访问控制，并且 开发者 和 集群管理员 可以通过 Ranger 组件自带的 WebUI 进行相关配置及授权管理操作，以达到集群安全性增强的目的。
 
-HDFS 作为底层存储，下面以 HDFS 为例，进行说明。
+​		在通过使用 USDP 服务创建的 Hadoop 集群中，我们通过本篇指南来介绍，以示例的形式，带您了解 开发者 及 管理员 如何使用 Ranger ，了解 Ranger 的相关的一些操作方法。
 
-## 1. Ranger 与 HDFS
+本篇指南，包含如下两章内容：
 
-### 1.1 启用  HDFS-Ranger 插件
+1. **Ranger 管理 HDFS 的访问权限**
+2. **Ranger 管理 Hive 的访问权限**
+
+
+
+
+
+
+
+
+
+
+
+
+
+## 1. Ranger 管理 HDFS 的访问权限
+
+HDFS 作为底层存储，本章节将以 HDFS 为例，进行说明。
+
+### 1.1 启用 HDFS-Ranger 插件
 
 #### 1.1.1 登陆NameNode所在集群节点并完成下述操作
 
@@ -250,7 +269,7 @@ ls: Permission denied: user=test1, access=EXECUTE, inode="/"
 
 此时证明权限配置已生效，test1用户已无权访问HDFS的任何目录了。
 
-## 2. Ranger 与 Hive
+## 2. Ranger 管理 Hive 的访问权限
 
 ### 2.1 启用 Hive-Ranger 插件
 
@@ -286,7 +305,7 @@ http://usdp-xxx-master1:6080/login.jsp
 
 此时可以查看到如下页面：
 
-<img src="../images/image-20201106130935692.png" alt="image-20201106130935692" style="zoom:67%;" />
+![image-20201106130935692](../images/image-20201106130935692.png)
 
 ``注：默认登录的账号：admin，密码为：admin``
 

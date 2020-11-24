@@ -24,12 +24,10 @@ HDFS 作为底层存储，下面以 HDFS 为例，进行说明。
     <name>dfs.permissions.enabled</name>
     <value>true</value>
 </property>
-
 <property>
     <name>dfs.permissions</name>
     <value>true</value>
 </property>
-
 <property>
     <name>dfs.namenode.inode.attributes.provider.class</name>
     <value>org.apache.ranger.authorization.hadoop.RangerHdfsAuthorizer</value>
@@ -418,7 +416,7 @@ useradd test1
 
 * 配置允许的权限
 
-  <img src="../images/image-20201106132922759.png" alt="image-20201106132922759" style="zoom:80%;" />
+* ![image-20201106132922759](../images/image-20201106132922759.png)
 
 * 配置拒绝的权限
 

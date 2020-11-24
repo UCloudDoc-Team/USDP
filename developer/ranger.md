@@ -71,21 +71,23 @@ http://usdp-xxx-master1:6080/login.jsp
 
 #### 1.2.2 添加 HDFS-Service
 
-在 HDFS 条目中，点击  <kbd>+</kbd>添加 Service，如下图所示：
+在Service Manager页面的 HDFS 条目中，点击  <kbd>+</kbd> 添加 Service，如下图所示：
 
 ![image-20201106131208683](../images/image-20201106131208683.png)
 
-并在 Service Name 输入框中填入如下值：（注意，此处必须为此值）
+进入Create Service服务配置页面，在 Service Name 输入框中填入如下值：
 
 ~~~shell
 ranger-hdfs-service
 ~~~
 
+`注意: 此处必须填写此值！`
+
 ![image-20201106131359431](../images/image-20201106131359431.png)
 
 #### 1.2.3 配置 HDFS-Service 用户名密码
 
-设置用户名密码为如下：
+填入用户名密码为如下：
 
 ~~~shell
 Username：hadoop
@@ -99,6 +101,8 @@ Password：hadoop
 ~~~shell
 hdfs://usdp-xxx-master1:8020,hdfs://usdp-xxx-master2:8020
 ~~~
+
+`注意：请替换示例中主机名字符串中的“xxx”为正确的主机名字符串。`
 
 填入规则如下图所示：
 
@@ -116,11 +120,11 @@ policy.download.auth.users: hadoop
 
 ![image-20201106131950006](../images/image-20201106131950006.png)
 
-然后点击 Test Connection 按钮，如果得到如下图所示样例，则表示成功。
+然后点击 <kbd>Test Connection</kbd> 按钮，如果得到如下图所示样例，则表示成功。
 
 ![image-20201106132041822](../images/image-20201106132041822.png)
 
-最后，点击 Add 按钮，此时Ranger Web UI的Service Manager页面显示如下：
+最后，点击 <kbd>Add</kbd> 按钮，此时Ranger Web UI的Service Manager页面显示如下：
 
 ![image-202011242k385d789](../images/image-202011242k385d789.png)
 
@@ -128,11 +132,11 @@ policy.download.auth.users: hadoop
 
 #### 1.3.1 添加用户
 
-在 Ranger Web UI 中，点击 Settings-Add New User 添加测试用户，如下图所示：
+在 Ranger Web UI 中，点击顶部导航栏 “Settings” 菜单，选择“Users”标签页，点击页面右侧的<kbd>Add New User</kbd> 添加测试用户，如下图所示：
 
 ![image-20201106133930992](../images/image-20201106133930992.png)
 
-编辑内容如下图所示：
+编辑内容，完成后点击 <kbd>Save</kbd> 按钮保存，如下图所示：
 
 ![image-20201106134013185](../images/image-20201106134013185.png)
 
@@ -186,7 +190,7 @@ drwxr-xr-x   - hadoop supergroup          0 2020-11-06 11:28 /user
 
 #### 1.4.3 添加自定义规则
 
-点击右上角的“Add New Policy” 即可添加默认规则，如下图所示：
+点击右上角的 <kbd>Add New Policy</kbd> 即可添加默认规则，如下图所示：
 
 ![image-20201106132317649](../images/image-20201106132317649.png)
 
@@ -206,7 +210,7 @@ drwxr-xr-x   - hadoop supergroup          0 2020-11-06 11:28 /user
 
 * 配置允许的权限
 
-  <img src="../images/image-20201106132922759.png" alt="image-20201106132922759" style="zoom:80%;" />
+  ![image-20201106132922759](../images/image-20201106132922759.png)
 
 * 配置拒绝的权限
 

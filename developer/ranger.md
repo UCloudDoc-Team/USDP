@@ -84,7 +84,7 @@ http://usdp-xxx-master1:6080/login.jsp
 
 #### 1.2.2 添加 HDFS-Service
 
-在Service Manager页面的 HDFS 条目中，点击  <kbd>+</kbd> 添加 Service，如下图所示：
+在Service Manager页面的 HDFS 条目中，点击  <kbd>+</kbd> 按钮进行创建 Service，如下图所示：
 
 ![image-20201106131208683](../images/image-20201106131208683.png)
 
@@ -145,7 +145,7 @@ policy.download.auth.users: hadoop
 
 #### 1.3.1 添加用户
 
-在 Ranger Web UI 中，点击顶部导航栏 “Settings” 菜单，选择“Users”标签页，点击页面右侧的<kbd>Add New User</kbd> 添加测试用户，如下图所示：
+在 Ranger Web UI 中，点击顶部导航栏 “Settings” 菜单，选择“Users”标签页，点击页面右侧的 <kbd>Add New User</kbd> 添加测试用户，如下图所示：
 
 ![image-20201106133930992](../images/image-20201106133930992.png)
 
@@ -269,7 +269,7 @@ ls: Permission denied: user=test1, access=EXECUTE, inode="/"
 
 #### 2.1.1 登陆 HiveServer2 所在集群节点并完成下述操作
 
-首先需要在 HiveServer2 所在节点上开启 Hive Ranger 插件，命令如下：
+首先需要在 HiveServer2 所在节点上开启 Hive Ranger 插件，并重启集群，命令如下：
 
 ~~~shell
 /srv/udp/1.0.0.0/hive/ranger-hive-plugin/enable-hive-plugin.sh 
@@ -315,7 +315,7 @@ http://usdp-xxx-master1:6080/login.jsp
 
 #### 2.2.2 添加 Hive-Service
 
-在 Hive 条目中，点击 “加号” 添加 Service，如下图所示：
+在 Hive 条目中，点击 <kbd>+</kbd> 按钮进行创建 Service，如下图所示：
 
 ![image-20201117145413710](../images/image-20201117145413710.png)
 
@@ -324,6 +324,8 @@ http://usdp-xxx-master1:6080/login.jsp
 ~~~shell
 ranger-hive-service
 ~~~
+
+`注意: 此处必须填写此值！`
 
 ![image-20201117145448335](../images/image-20201117145448335.png)
 
@@ -342,15 +344,17 @@ Password：hadoop
 
 #### 2.2.5 配置 JDBC URL
 
-此处设置 HiveServer2 的连接即可，配置举例如下，注意：该示例中的 IP 地址为 HiveServer2 所在节点的内网 IP。
+此处设置 HiveServer2 的连接即可，配置举例如下：
 
 ~~~shell
 jdbc:hive2://10.9.136.30:10000
 ~~~
 
+`注意：该示例中的 IP 地址为 HiveServer2 所在节点的内网 IP。`
+
 #### 2.2.5 配置代理参数
 
-在下方 Add New Configuration 中配置代理参数如下：
+在下方 <kbd>Add New Configuration</kbd> 中配置代理参数如下：
 
 ~~~shell
 policy.download.auth.users: hadoop
@@ -360,17 +364,17 @@ policy.download.auth.users: hadoop
 
 ![image-20201106131950006](../images/image-20201106131950006.png)
 
-然后点击 Test Connection 按钮，如果得到如下图所示样例，则表示成功。
+然后点击 <kbd>Test Connection</kbd> 按钮，如果得到如下图所示样例，则表示成功。
 
 ![image-20201106132041822](../images/image-20201106132041822.png)
 
-最后，点击 Add 按钮即可。
+最后，点击 <kbd>Add</kbd> 按钮即可。
 
 ### 2.3 添加测试用户
 
 #### 2.3.1 添加用户
 
-在 Ranger Web UI 中，点击 Settings-Add New User 添加测试用户，如下图所示：
+在 Ranger Web UI 中，点击顶部导航栏 “Settings” 菜单，选择“Users”标签页，点击页面右侧的 <kbd>Add New User</kbd> 添加测试用户，如下图所示：
 
 ![image-20201106133930992](../images/image-20201106133930992.png)
 
@@ -382,7 +386,7 @@ policy.download.auth.users: hadoop
 
 #### 2.3.2 在 Linux 中添加用户
 
-在 Linux 中，需要添加与上述配置相同的用户，命令如下：
+通过 ssh 在集群节点上，需要添加与上述配置相同的用户，命令如下：
 
 ~~~shell
 useradd test1
@@ -390,7 +394,7 @@ useradd test1
 
 #### 2.3.3 验证用户当前权限
 
-在 Linux 中，使用如下命令，验证 test1 用户拥有对应权限：
+使用如下命令，验证 test1 用户拥有对应权限：
 
 ~~~shell
 /srv/udp/1.0.0.0/hive/bin/beeline -u jdbc:hive2://10.9.136.30:10000 -n test1
@@ -431,7 +435,7 @@ useradd test1
 
 #### 2.4.3 添加自定义规则
 
-点击右上角的“Add New Policy” 即可添加默认规则，如下图所示：
+点击右上角的 <kbd>Add New Policy</kbd> 按钮添加默认规则，如下图所示：
 
 ![image-20201106132317649](../images/image-20201106132317649.png)
 
@@ -459,11 +463,11 @@ useradd test1
 
 #### 2.4.6 查看配置完成的权限
 
-上述配置完成后，点击 Add，即可完成添加，并回到权限概览页面，如下图所示：
+上述配置完成后，点击 <kbd>Add</kbd> 按钮完成添加，并回到权限概览页面，如下图所示：
 
 ![image-20201117153048597](../images/image-20201117153048597.png)
 
-``注：权限添加后，大约 1 分钟之后才会生效。``
+``注：权限添加后，大约需要 1 分钟即可生效。``
 
 ### 2.5  验证权限配置
 

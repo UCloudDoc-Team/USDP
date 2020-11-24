@@ -47,7 +47,7 @@ ranger-plugin-classloader-1.2.0.jar -> /srv/udp/1.0.0.0/hdfs/ranger-hdfs-plugin/
 
 #### 1.1.2 在USDP控制台完成两个NameNode服务重启
 
-进入左侧导航栏“节点管理”中，分别点击节点域名为“usdp-xxx-master1”、“usdp-xxx-master2”进入节点详情页，点击“组件管理”，寻找到“NameNode1”、“NameNode2”组件后，点击响应的组件操作栏 <kbd>重启</kbd> 按钮。
+进入左侧导航栏“节点管理”中，分别点击节点域名为“usdp-xxx-master1”、“usdp-xxx-master2”进入节点详情页，点击“组件管理”，寻找到“NameNode1”、“NameNode2”组件后，点击NameNode组件对应的“操作”栏 <kbd>重启</kbd> 按钮。
 
 ![image-20201124345370l130](../images/image-20201124345370l131.png)
 

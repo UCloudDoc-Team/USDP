@@ -248,7 +248,7 @@ su: user test2 does not exist
 ls: Permission denied: user=test1, access=EXECUTE, inode="/"
 ~~~
 
-此时证明权限配置已经生效。
+此时证明权限配置已生效，test1用户已无权访问HDFS的任何目录了。
 
 ## 2. Ranger 与 Hive
 

@@ -11,7 +11,7 @@ RANGER 是 Hadoop 生态中的一种权限管理框架，通过其可以实现�
 
 
 
-
+`注意：本篇指南是以USDP V1.0.0.0版本，涉及的集群组件的路径，参见[各服务部署规则](https://docs.ucloud.cn/USDP/developer/intro)。`
 
 
 
@@ -28,6 +28,8 @@ HDFS 作为底层存储，本章节将以 HDFS 为例，进行说明。
 ~~~shell
 /srv/udp/1.0.0.0/hdfs/ranger-hdfs-plugin/enable-hdfs-plugin.sh 
 ~~~
+
+`注：可通过 USDP 控制台查看 HDFS 相关组件中，NameNode1、NameNode2 分别运行在集群的哪些节点上。`
 
 此时会在当前节点的如下目录自动生成相关权限配置：
 
@@ -272,6 +274,8 @@ ls: Permission denied: user=test1, access=EXECUTE, inode="/"
 ~~~shell
 /srv/udp/1.0.0.0/hive/ranger-hive-plugin/enable-hive-plugin.sh 
 ~~~
+
+`注：可通过 USDP 控制台查看 Hive 相关组件中，HiveServer2 运行在集群的哪个节点上。`
 
 此时会在当前节点的 Hive 配置文件目录中自动变更如下配置文件：
 

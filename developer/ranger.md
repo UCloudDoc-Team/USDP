@@ -112,7 +112,9 @@ policy.download.auth.users: hadoop
 
 ![image-20201106132041822](../images/image-20201106132041822.png)
 
-最后，点击 Add 按钮即可。
+最后，点击 Add 按钮，此时Ranger Web UI的Service Manager页面显示如下：
+
+![image-20201106133930992](../images/image-202011242k385d789.png)
 
 ### 1.3  添加测试用户
 

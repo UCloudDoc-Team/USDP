@@ -62,7 +62,7 @@ ranger-plugin-classloader-1.2.0.jar -> /srv/udp/1.0.0.0/hdfs/ranger-hdfs-plugin/
 
 #### 1.1.2 在USDP控制台完成两个NameNode服务重启
 
-进入左侧导航栏“节点管理”中，分别点击节点域名为 “usdp-xxx-master1”、“usdp-xxx-master2” 进入节点详情页，点击 “组件管理”，寻找到 “NameNode1”、“NameNode2” 组件后，点击 NameNode 组件对应的 “操作” 栏 <kbd>重启</kbd> 按钮。
+进入左侧导航栏 “服务管理”-“存储类”-“HDFS” 中，点击 “组件管理”，寻找到 “NameNode1”、“NameNode2” 组件后，点击 “NameNode1”、“NameNode2” 组件对应的 “操作” 栏 <kbd>重启</kbd> 按钮。
 
 ![iamge-202011241002151124](../images/iamge-202011241002151124.png)
 
@@ -78,7 +78,7 @@ http://usdp-xxx-master1:6080/login.jsp
 
 此时可以查看到如下页面：
 
-![image-20201106130935692](../images/image-20201106130935692.png)
+![image-202011241038221124](../images/image-202011241038221124.png)
 
 ``注：默认登录的账号：admin，密码为：admin``
 
@@ -309,7 +309,7 @@ http://usdp-xxx-master1:6080/login.jsp
 
 此时可以查看到如下页面：
 
-![image-20201106130935692](../images/image-20201106130935692.png)
+![image-202011241038221124](../images/image-202011241038221124.png)
 
 ``注：默认登录的账号：admin，密码为：admin``
 

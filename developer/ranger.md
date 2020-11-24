@@ -8,6 +8,8 @@ HDFS 作为底层存储，下面以 HDFS 为例，进行说明。
 
 ### 1.1 启用  HDFS-Ranger 插件
 
+#### 1.1.1 登陆NameNode所在集群节点并完成下述操作
+
 首先需要分别在两台 NameNode 节点上开启 HDFS Ranger 插件，并重启集群，命令如下：
 
 ~~~shell
@@ -45,6 +47,14 @@ ranger-plugin-classloader-1.2.0.jar -> /srv/udp/1.0.0.0/hdfs/ranger-hdfs-plugin/
 
 ``注意：此时，需要通过 USDP 控制台重启两个NameNode``
 
+#### 1.1.2 在USDP控制台完成两个NameNode服务重启
+
+进入左侧导航栏“节点管理”中，分别点击节点域名为“usdp-xxx-master1”、“usdp-xxx-master2”进入节点详情页，点击“组件管理”，寻找到“NameNode1”、“NameNode2”组件后，点击响应的组件操作栏 <kbd>重启</kbd> 按钮。image-2020112434537.png
+
+![image-20201124345370l130](../images/image-20201124345370l130.png)
+
+![image-2020112434256h964](../images/image-2020112434256h964.png)
+
 ### 1.2 配置权限
 
 #### 1.2.1 访问 Ranger Web UI 页面
@@ -63,7 +73,7 @@ http://usdp-xxx-master1:6080/login.jsp
 
 #### 1.2.2 添加 HDFS-Service
 
-在 HDFS 条目中，点击 “加号” 添加 Service，如下图所示：
+在 HDFS 条目中，点击  <kbd>+</kbd>添加 Service，如下图所示：
 
 ![image-20201106131208683](../images/image-20201106131208683.png)
 
@@ -114,7 +124,7 @@ policy.download.auth.users: hadoop
 
 最后，点击 Add 按钮，此时Ranger Web UI的Service Manager页面显示如下：
 
-![image-20201106133930992](../images/image-202011242k385d789.png)
+![image-202011242k385d789](../images/image-202011242k385d789.png)
 
 ### 1.3  添加测试用户
 

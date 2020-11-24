@@ -67,7 +67,7 @@ http://usdp-xxx-master1:6080/login.jsp
 
 此时可以查看到如下页面：
 
-![image-20201106130935692](../images/image-20201106130935692.png)
+<img src="../images/image-20201106130935692.png" alt="image-20201106130935692" style="zoom:60%;" />
 
 ``注：默认登录的账号：admin，密码为：admin``
 
@@ -124,7 +124,7 @@ policy.download.auth.users: hadoop
 
 最后，点击 Add 按钮，此时Ranger Web UI的Service Manager页面显示如下：
 
-![image-202011242k385d789](../images/image-202011242k385d789.png)
+<img src="../images/image-202011242k385d789.png" alt="image-202011242k385d789" style="zoom:70%;" />
 
 ### 1.3  添加测试用户
 
@@ -136,7 +136,7 @@ policy.download.auth.users: hadoop
 
 编辑内容如下图所示：
 
-![image-20201106134013185](../images/image-20201106134013185.png)
+<img src="../images/image-20201106134013185.png" alt="image-20201106134013185" style="zoom:70%;" />
 
 ``注：Select Role 中，选择 User 类型，而非 Admin 类型。``
 

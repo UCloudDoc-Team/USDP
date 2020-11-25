@@ -32,7 +32,7 @@ USDP 构建于 UCloud 的云服务上，无缝集成云端 IaaS 资源能力，�
 * [USDP开发指南-HDFS](/USDP/developer/hdfs)
 * [USDP开发指南-Hive](/USDP/developer/hive)
 * [USDP开发指南-Ranger](/USDP/developer/ranger)
-  
+* [USDP开发指南-Airflow](/USDP/developer/airflow)
   
 ## 产品价格
 

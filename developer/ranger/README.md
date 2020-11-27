@@ -12,5 +12,5 @@ RANGER 是 Hadoop 生态中的一种权限管理框架，通过其可以实现�
 
 
 
-`注意：本篇指南是以USDP V1.0.0.0版本，涉及的集群组件的部署路径`参见[各服务部署规则](https://docs.ucloud.cn/USDP/developer/intro)。
+`注意：本篇指南是以USDP V1.0.0.0版本，涉及的集群组件的部署路径`参见[各服务部署规则](/USDP/developer/intro)。
 

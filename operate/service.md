@@ -6,7 +6,7 @@
     
 ``关于集群中各个服务管理、配置修改等操作，请您前往“USDP管控控制台”操作。``
 
-![](/images/服务管理.png)
+![](../images/服务管理.png)
 
 
 USDP的服务管理详情请参考：[USDP服务管理](http://usdp.cn-bj.ufileos.com/USDP用户手册-服务管理.pdf)

@@ -1,10 +1,10 @@
-## 1. Ranger 管理 HDFS 的访问权限
+# HDFS配置Ranger
 
 HDFS 作为底层存储，本章节将以 HDFS 为例，进行说明。
 
-### 1.1 启用 HDFS-Ranger 插件
+## 启用 HDFS-Ranger 插件
 
-#### 1.1.1 登陆NameNode所在集群节点并完成下述操作
+#### 1. 登陆NameNode所在集群节点并完成下述操作
 
 首先需要分别在两台 NameNode 节点上开启 HDFS Ranger 插件，并重启集群，命令如下：
 
@@ -43,15 +43,15 @@ ranger-plugin-classloader-1.2.0.jar -> /srv/udp/1.0.0.0/hdfs/ranger-hdfs-plugin/
 
 ``注意：此时，需要通过 USDP 控制台重启两个NameNode，参见1.1.2节``
 
-#### 1.1.2 在USDP控制台完成两个NameNode服务重启
+#### 2. 在USDP控制台完成两个NameNode服务重启
 
 进入左侧导航栏 “服务管理”-“存储类”-“HDFS” 中，点击 “组件管理”，寻找到 “NameNode1”、“NameNode2” 组件后，点击 “NameNode1”、“NameNode2” 组件对应的 “操作” 栏 <kbd>重启</kbd> 按钮。
 
 ![iamge-202011241002151124](../images/iamge-202011241002151124.png)
 
-### 1.2 配置权限
+## 配置权限
 
-#### 1.2.1 访问 Ranger Web UI 页面
+#### 1. 访问 Ranger Web UI 页面
 
 此时可以通过控制台访问 Ranger Web UI页面，举例连接如下：
 
@@ -65,7 +65,7 @@ http://usdp-xxx-master1:6080/login.jsp
 
 ``注：默认登录的账号：admin，密码为：admin``
 
-#### 1.2.2 添加 HDFS-Service
+#### 2. 添加 HDFS-Service
 
 在Service Manager页面的 HDFS 条目中，点击  <kbd>+</kbd> 按钮进行创建 Service，如下图所示：
 
@@ -81,7 +81,7 @@ ranger-hdfs-service
 
 ![image-20201106131359431](../images/image-20201106131359431.png)
 
-#### 1.2.3 配置 HDFS-Service 用户名密码
+#### 3. 配置 HDFS-Service 用户名密码
 
 填入用户名密码为如下：
 
@@ -90,7 +90,7 @@ Username：hadoop
 Password：hadoop
 ~~~
 
-#### 1.2.4 配置 NameNode HA 参数
+#### 4. 配置 NameNode HA 参数
 
 在 NameNode URL 中填入如下配置：
 
@@ -104,7 +104,7 @@ hdfs://usdp-xxx-master1:8020,hdfs://usdp-xxx-master2:8020
 
 ![image-20201106131634840](../images/image-20201106131634840.png)
 
-#### 1.2.5 配置代理参数
+#### 5. 配置代理参数
 
 在下方 Add New Configuration 中配置代理参数如下：
 
@@ -124,9 +124,9 @@ policy.download.auth.users: hadoop
 
 ![image-202011242k385d789](../images/image-202011242k385d789.png)
 
-### 1.3  添加测试用户
+## 添加测试用户
 
-#### 1.3.1 添加用户
+#### 1. 添加用户
 
 在 Ranger Web UI 中，点击顶部导航栏 “Settings” 菜单，选择“Users”标签页，点击页面右侧的 <kbd>Add New User</kbd> 添加测试用户，如下图所示：
 
@@ -138,7 +138,7 @@ policy.download.auth.users: hadoop
 
 ``注：Select Role 中，选择 User 类型，而非 Admin 类型。``
 
-#### 1.3.2 在 Linux 中添加用户
+#### 2. 在 Linux 中添加用户
 
 通过 ssh 在集群节点上，添加与上述配置相同的用户test1，命令如下：
 
@@ -146,7 +146,7 @@ policy.download.auth.users: hadoop
 useradd test1
 ~~~
 
-#### 1.3.3  验证用户当前权限
+#### 3.  验证用户当前权限
 
 使用如下命令，验证刚添加的 test1 用户是否拥有对应权限：
 
@@ -168,29 +168,29 @@ drwxr-xr-x   - hadoop supergroup          0 2020-11-06 11:28 /user
 
 此时证明 test1 用户对HDFS的根目录拥有访问权限。
 
-### 1.4  编辑权限
+## 编辑权限
 
 接下来，以配置拒绝 test1 用户访问 HDFS 为例，进行示例说明。
 
-#### 1.4.1 进入编辑页面
+#### 1. 进入编辑页面
 
 如下图所示，进入HDFS条目的“ranger-hdfs-service”策略编辑页面：
 
 ![image-20201106132157001](../images/image-20201106132157001.png)
 
-#### 1.4.2 删除默认规则
+#### 2. 删除默认规则
 
 首先，删除Ranger默认的权限策略，如下图所示：
 
 ![image-20201106132231930](../images/image-20201106132231930.png)
 
-#### 1.4.3 添加自定义规则
+#### 3. 添加自定义规则
 
 点击右上角的 <kbd>Add New Policy</kbd> 即可添加自定义权限策略规则，如下图所示：
 
 ![image-20201106132317649](../images/image-20201106132317649.png)
 
-#### 1.4.4 配置 Policy Details
+#### 4. 配置 Policy Details
 
 在 Policy Name 属性中，建议键入比较有标识度的规则名称，例如：deny_test1_all，即，拒绝 test1 用户所有对 HDFS 的操作。
 
@@ -200,7 +200,7 @@ drwxr-xr-x   - hadoop supergroup          0 2020-11-06 11:28 /user
 
 ![image-20201106134404122](../images/image-20201106134404122.png)
 
-#### 1.4.5 配置权限类型
+#### 5. 配置权限类型
 
 配置权限可以分为两种类别：允许的权限、拒绝的权限。
 
@@ -214,7 +214,7 @@ drwxr-xr-x   - hadoop supergroup          0 2020-11-06 11:28 /user
 
   ![image-20201106134453012](../images/image-20201106134453012.png)
 
-#### 1.4.6 查看配置完成的权限
+#### 6. 查看配置完成的权限
 
 完成上述配置项填写后，点击 <kbd>Add</kbd> 按钮保存，即已完成添加自定义策略配置，并回到权限策略概览页面，如下图所示：
 
@@ -222,7 +222,7 @@ drwxr-xr-x   - hadoop supergroup          0 2020-11-06 11:28 /user
 
 ``注：权限添加后，大约需要 1 分钟左右即会生效。``
 
-### 1.5  验证权限配置
+## 验证权限配置
 
 接下来，通过 ssh 访问集群中安装了 HDFS 服务组件的“任意”节点，进行 shell 操作来验证权限是否生效。
 

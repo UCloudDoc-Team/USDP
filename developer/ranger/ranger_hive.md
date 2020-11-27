@@ -30,7 +30,7 @@ ranger-security.xml
 
 进入左侧导航栏 “服务管理”-“计算类”-“HIVE” 中，点击 “组件管理”，寻找到 “HiveServer2” 组件后，点击 HiveServer2 组件对应的 “操作” 栏 <kbd>重启</kbd> 按钮。
 
-![image-202011241004201124](/Users/forrest/Documents/UCLOUD/BDPL/大数据技术中心/USDP&私有化/USDP文档/Github-USDP-docs/USDP/developer/images/image-202011241004201124.png)
+![image-202011241004201124](../../images/image-202011241004201124.png)
 
 ## 配置权限
 
@@ -44,7 +44,7 @@ http://usdp-xxx-master1:6080/login.jsp
 
 此时可以查看到如下页面：
 
-![image-202011241038221124](/Users/forrest/Documents/UCLOUD/BDPL/大数据技术中心/USDP&私有化/USDP文档/Github-USDP-docs/USDP/developer/images/image-202011241038221124.png)
+![image-202011241038221124](../../images/image-202011241038221124.png)
 
 ``注：默认登录的账号：admin，密码为：admin``
 
@@ -52,7 +52,7 @@ http://usdp-xxx-master1:6080/login.jsp
 
 在 Hive 条目中，点击 <kbd>+</kbd> 按钮进行创建 Service，如下图所示：
 
-![image-20201117145413710](/Users/forrest/Documents/UCLOUD/BDPL/大数据技术中心/USDP&私有化/USDP文档/Github-USDP-docs/USDP/developer/images/image-20201117145413710.png)
+![image-20201117145413710](../../images/image-20201117145413710.png)
 
 并在 Service Name 输入框中填入如下值：（注意，此处必须为此值）
 
@@ -62,7 +62,7 @@ ranger-hive-service
 
 `注意: 此处必须填写此值！`
 
-![image-20201117145448335](/Users/forrest/Documents/UCLOUD/BDPL/大数据技术中心/USDP&私有化/USDP文档/Github-USDP-docs/USDP/developer/images/image-20201117145448335.png)
+![image-20201117145448335](../../images/image-20201117145448335.png)
 
 #### 3. 设置 Hive-Service 用户名密码
 
@@ -97,11 +97,11 @@ policy.download.auth.users: hadoop
 
 配置完成后如下图所示：
 
-![image-20201106131950006](/Users/forrest/Documents/UCLOUD/BDPL/大数据技术中心/USDP&私有化/USDP文档/Github-USDP-docs/USDP/developer/images/image-20201106131950006.png)
+![image-20201106131950006](../../images/image-20201106131950006.png)
 
 然后点击 <kbd>Test Connection</kbd> 按钮，如果得到如下图所示样例，则表示成功。
 
-![image-20201106132041822](/Users/forrest/Documents/UCLOUD/BDPL/大数据技术中心/USDP&私有化/USDP文档/Github-USDP-docs/USDP/developer/images/image-20201106132041822.png)
+![image-20201106132041822](../../images/image-20201106132041822.png)
 
 最后，点击 <kbd>Add</kbd> 按钮即可。
 
@@ -111,11 +111,11 @@ policy.download.auth.users: hadoop
 
 在 Ranger Web UI 中，点击顶部导航栏 “Settings” 菜单，选择“Users”标签页，点击页面右侧的 <kbd>Add New User</kbd> 添加测试用户，如下图所示：
 
-![image-20201106133930992](/Users/forrest/Documents/UCLOUD/BDPL/大数据技术中心/USDP&私有化/USDP文档/Github-USDP-docs/USDP/developer/images/image-20201106133930992.png)
+![image-20201106133930992](../../images/image-20201106133930992.png)
 
 编辑内容如下图所示：
 
-![image-20201106134013185](/Users/forrest/Documents/UCLOUD/BDPL/大数据技术中心/USDP&私有化/USDP文档/Github-USDP-docs/USDP/developer/images/image-20201106134013185.png)
+![image-20201106134013185](../../images/image-20201106134013185.png)
 
 ``注：Select Role 中，选择 User 类型，而非 Admin 类型。``
 
@@ -160,19 +160,19 @@ useradd test1
 
 如下图所示，即可进入编辑页面：
 
-![image-20201117152511115](/Users/forrest/Documents/UCLOUD/BDPL/大数据技术中心/USDP&私有化/USDP文档/Github-USDP-docs/USDP/developer/images/image-20201117152511115.png)
+![image-20201117152511115](../../images/image-20201117152511115.png)
 
 #### 2. 删除默认规则
 
 如下图所示：
 
-![image-20201117152706370](/Users/forrest/Documents/UCLOUD/BDPL/大数据技术中心/USDP&私有化/USDP文档/Github-USDP-docs/USDP/developer/images/image-20201117152706370.png)
+![image-20201117152706370](../../images/image-20201117152706370.png)
 
 #### 3. 添加自定义规则
 
 点击右上角的 <kbd>Add New Policy</kbd> 按钮添加默认规则，如下图所示：
 
-![image-20201106132317649](/Users/forrest/Documents/UCLOUD/BDPL/大数据技术中心/USDP&私有化/USDP文档/Github-USDP-docs/USDP/developer/images/image-20201106132317649.png)
+![image-20201106132317649](../../images/image-20201106132317649.png)
 
 #### 4. 配置 Policy Details
 
@@ -182,7 +182,7 @@ useradd test1
 
 最终配置如下图所示：
 
-![image-20201117153018511](/Users/forrest/Documents/UCLOUD/BDPL/大数据技术中心/USDP&私有化/USDP文档/Github-USDP-docs/USDP/developer/images/image-20201117153018511.png)
+![image-20201117153018511](../../images/image-20201117153018511.png)
 
 #### 5. 配置权限类型
 
@@ -190,17 +190,17 @@ useradd test1
 
 * 配置允许的权限
 
-  ![image-20201106132922759](/Users/forrest/Documents/UCLOUD/BDPL/大数据技术中心/USDP&私有化/USDP文档/Github-USDP-docs/USDP/developer/images/image-20201106132922759.png)
+  ![image-20201106132922759](../../images/image-20201106132922759.png)
 
 * 配置拒绝的权限
 
-  ![image-20201117153740642](/Users/forrest/Documents/UCLOUD/BDPL/大数据技术中心/USDP&私有化/USDP文档/Github-USDP-docs/USDP/developer/images/image-20201117153740642.png)
+  ![image-20201117153740642](../../images/image-20201117153740642.png)
 
 #### 6. 查看配置完成的权限
 
 上述配置完成后，点击 <kbd>Add</kbd> 按钮完成添加，并回到权限概览页面，如下图所示：
 
-![image-20201117153048597](/Users/forrest/Documents/UCLOUD/BDPL/大数据技术中心/USDP&私有化/USDP文档/Github-USDP-docs/USDP/developer/images/image-20201117153048597.png)
+![image-20201117153048597](../../images/image-20201117153048597.png)
 
 ``注：权限添加后，大约需要 1 分钟即可生效。``
 

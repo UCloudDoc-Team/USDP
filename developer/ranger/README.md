@@ -6,9 +6,9 @@ RANGER 是 Hadoop 生态中的一种权限管理框架，通过其可以实现�
 
 本篇指南，包含如下两章内容：
 
-* [Ranger 管理 HDFS 的访问权限](/USDP/developer/ranger/ranger_hdfs)
+* [HDFS配置Ranger](/USDP/developer/ranger/ranger_hdfs)
 
-* [Ranger 管理 Hive 的访问权限](/USDP/developer/ranger/ranger_hive)
+* [Hive配置Ranger](/USDP/developer/ranger/ranger_hive)
 
 
 

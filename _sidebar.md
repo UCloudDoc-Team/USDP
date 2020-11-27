@@ -14,8 +14,8 @@
     * [USDP开发指南-HDFS](/USDP/developer/hdfs)
     * [USDP开发指南-Hive](/USDP/developer/hive)
     * [USDP开发指南-Ranger](/USDP/developer/ranger/README)
-      * [Ranger管理HDFS](/USDP/developer/ranger/ranger_hdfs)
-      * [Ranger管理Hive](/USDP/developer/ranger/ranger_hive)
+      * [HDFS配置Ranger](/USDP/developer/ranger/ranger_hdfs)
+      * [Hive配置Ranger](/USDP/developer/ranger/ranger_hive)
     * [USDP开发指南-Airflow](/USDP/developer/airflow)
     * 
 * [产品价格](/USDP/price)

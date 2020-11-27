@@ -53,17 +53,7 @@ ranger-plugin-classloader-1.2.0.jar -> /srv/udp/1.0.0.0/hdfs/ranger-hdfs-plugin/
 
 #### 1. 访问 Ranger Web UI 页面
 
-此时可以通过控制台访问 Ranger Web UI页面，举例连接如下：
-
-~~~URI
-http://usdp-xxx-master1:6080/login.jsp
-~~~
-
-此时可以查看到如下页面：
-
-![image-202011241038221124](../../images/image-202011241038221124.png)
-
-``注：默认登录的账号：admin，密码为：admin``
+请在云端内网环境中使用浏览器访问 Ranger Web UI页面。
 
 #### 2. 添加 HDFS-Service
 

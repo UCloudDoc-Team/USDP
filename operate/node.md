@@ -4,7 +4,7 @@
 
 在集群管理详情页中，点击 <kbd>节点管理</kbd> 标签页后，即可查看当前集群的所有节点资源列表信息。
 
-![](/images/节点列表.png)
+![](../images/节点列表.png)
 
 ## 添加节点
 
@@ -12,7 +12,7 @@
 
 待您输入新创建节点的初始密码后，点击 <kbd>确定</kbd> 按钮，等待节点创建。如下图所示：
 
-![](/images/添加节点.png)
+![](../images/添加节点.png)
 
 ## 删除节点
 
@@ -38,13 +38,13 @@
 ## 绑定EIP、设置防火墙
 
 1）首先需要在基础网络产品页面申请一个EIP，可参考[EIP操作指南](https://docs.ucloud.cn/unet/eip/guide)
-![](/images/申请EIP.png)
+![](../images/申请EIP.png)
 
 2）然后到智能大数据平台USDP的节点管理进行绑定EIP操作。
 
 `注意`绑定EIP之后，请配置好防火墙[防火墙操作指南](https://docs.ucloud.cn/unet/firewall/guide)，避免被入侵。
 
-![](/images/绑定EIP.png)
+![](../images/绑定EIP.png)
 
 
 ## 节点基本操作

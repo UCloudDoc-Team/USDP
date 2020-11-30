@@ -14,11 +14,11 @@ RANGER 是 Hadoop 生态中的一种权限管理框架，通过其可以实现�
 
 3. 选择标签页“Web UIs”即可弹出 RangerAdmin Web UI的链接。
 
-   ![image-2020112773215ranger](../../images/images-2020112773215ranger.png)
+   ![image-2020112773215ranger](./images/images-2020112773215ranger.png)
 
 4. 点击此链接即可打开。
 
-   ![image-2020112774628ranger](../../images/images-2020112774628ranger.png)
+   ![image-2020112774628ranger](./images/images-2020112774628ranger.png)
 
    ``注：默认登录的账号：admin，密码为：admin，建议您及时修改admin用户密码。``
 

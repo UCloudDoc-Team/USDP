@@ -29,7 +29,7 @@ USDP 构建于 UCloud 的云服务上，无缝集成云端 IaaS 资源能力，�
 
 本章节为您介绍 USDP 所支持管理的各个开源大数据服务组件的部署及使用方式，帮助您开启数据分析之旅。
 
-* [各服务部署规则](/USDP/developer/intro)
+* [各服务部署规则](/USDP/developer/rule)
 * [USDP开发指南-HDFS](/USDP/developer/hdfs)
 * [USDP开发指南-Hive](/USDP/developer/hive)
 * [USDP开发指南-Ranger](/USDP/developer/ranger/README)

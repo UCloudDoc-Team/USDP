@@ -10,7 +10,7 @@
     * [配置openvpn访问集群内网](/USDP/operate/openvpn)
 
 * 开发指南
-    * [各服务部署规则](/USDP/developer/intro)
+    * [各服务部署规则](/USDP/developer/rule)
     * [USDP开发指南-HDFS](/USDP/developer/hdfs)
     * [USDP开发指南-Hive](/USDP/developer/hive)
     * [USDP开发指南-Ranger](/USDP/developer/ranger/README)

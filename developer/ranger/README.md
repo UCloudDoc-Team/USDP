@@ -8,6 +8,8 @@ RANGER 是 Hadoop 生态中的一种权限管理框架，通过其可以实现�
 
 目前，当需要访问USDP各组件的Web UIs时，出于安全性考虑，建议您先安全的进入云端内网环境，并使用浏览器访问各组件Web UIs。
 
+### 方法一
+
 1. 进入USDP控制台。
 
 2. 左侧导航栏选择“服务管理”-“安全类”-“Ranger”进入 Ranger 服务管理页面。
@@ -22,15 +24,19 @@ RANGER 是 Hadoop 生态中的一种权限管理框架，通过其可以实现�
 
    ``注：默认登录的账号：admin，密码为：admin，建议您及时修改admin用户密码。``
 
-5. 的此时可以通过控制台访问 Ranger Web UI页面，举例连接如下：
+### 方法二
 
-您可通过以下方式亦可访问Ranger UI。
+若您了解RangerAdmin部署的所在的集群节点，即可通过下述方式访问Ranger Web UI。
 
 ~~~URI
 http://usdp-xxx-master1:6080/login.jsp
 ~~~
 
+其中“usdp-xxx-master1”亦可替换成所在节点的内网ip。
 
+
+
+``注意：无论方法一/二，均需要您操作的浏览器所在节点与集群各节点可内网互通。``
 
 ## 各服务组件集成Ranger
 

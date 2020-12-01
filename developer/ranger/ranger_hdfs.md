@@ -69,7 +69,7 @@ ranger-hdfs-service
 
 `注意: 此处必须填写此值！`
 
-![ranger-20201106131359431](../images/ranger-20201106131359431.png)
+![ranger-20201106131359431](/images/ranger-20201106131359431.png)
 
 #### 3. 配置 HDFS-Service 用户名密码
 

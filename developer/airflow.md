@@ -98,5 +98,5 @@ with DAG(
 
 页面刷新后，存在  test_task2 DAG，查看运行 task 如下图：
 
-![airflow-16061904173106](../images/airflow-16061904173106.png)
+![airflow-16061904173106](./images/airflow-16061904173106.png)
 

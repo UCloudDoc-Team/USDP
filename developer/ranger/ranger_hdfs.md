@@ -47,7 +47,7 @@ ranger-plugin-classloader-1.2.0.jar -> /srv/udp/1.0.0.0/hdfs/ranger-hdfs-plugin/
 
 进入左侧导航栏 “服务管理”-“存储类”-“HDFS” 中，点击 “组件管理”，寻找到 “NameNode1”、“NameNode2” 组件后，点击 “NameNode1”、“NameNode2” 组件对应的 “操作” 栏 <kbd>重启</kbd> 按钮。
 
-![ranger-202011241002151124](../images/ranger-202011241002151124.png)
+![ranger-202011241002151124](/images/ranger-202011241002151124.png)
 
 ## 配置权限
 

@@ -5,10 +5,11 @@
 * 操作指南
     * [集群管理](/USDP/operate/cluster)
     * [节点管理](/USDP/operate/node)
-    * [服务管理](/USDP/operate/service)
+    * [服务管理](/USDP/operate/README)
+      * [计算类组件管理](/USDP/operate/service/compute)
     * [监控管理](/USDP/operate/monitor)
-    * [配置openvpn访问集群内网](/USDP/operate/openvpn)
-
+* [配置openvpn访问集群内网](/USDP/operate/openvpn)
+    
 * 开发指南
     * [各服务部署规则](/USDP/developer/rule)
     * [USDP开发指南-HDFS](/USDP/developer/hdfs)

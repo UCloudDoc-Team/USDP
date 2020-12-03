@@ -8,13 +8,14 @@
 
 ## 在USDP管理控制台查看集群“服务管理”
 
-关于USDP大数据集群中各个服务管理功能、配置修改等操作，均可参考此处完成。
-
 在USDP管理控制台-服务管理模块中，讲该集群所部署使用的所有大数据服务组件按以下6类统一归类，可点击前往查看各类中相关组件服务的管理操作方法：
 
-- [计算类组件管理](/USDP/operate/service/compute)
-- [存储类组件管理]()
-- [监控类组件管理]()
-- [可视化组件务管理]()
-- [调度类组件管理]()
-- [安全类组件管理]()
+- [计算类组件管理](/USDP/operate/service/compute_kind)
+- [存储类组件管理](/USDP/operate/service/storage_kind)
+- [监控类组件管理](/USDP/operate/service/monitor_kind)
+- [可视化组件务管理](/USDP/operate/service/visual_kind)
+- [调度类组件管理](/USDP/operate/service/scheduler_kind)
+- [安全类组件管理](/USDP/operate/service/safe_kind)
+
+关于USDP大数据集群中各个服务管理功能、配置修改等操作，均可参考此处完成。
+

@@ -7,8 +7,13 @@
     * [节点管理](/USDP/operate/node)
     * [服务管理](/USDP/operate/service/README)
       * [计算类组件管理](/USDP/operate/service/compute)
+      * [存储类组件管理](/USDP/operate/service/storage_kind)
+  * [监控类组件管理](/USDP/operate/service/monitor_kind)
+      * [可视化组件务管理](/USDP/operate/service/visual_kind)
+      * [调度类组件管理](/USDP/operate/service/scheduler_kind)
+      * [安全类组件管理](/USDP/operate/service/safe_kind)
     * [监控管理](/USDP/operate/monitor)
-* [配置openvpn访问集群内网](/USDP/operate/openvpn)
+    * [配置openvpn访问集群内网](/USDP/operate/openvpn)
     
 * 开发指南
     * [各服务部署规则](/USDP/developer/rule)

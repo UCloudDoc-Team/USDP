@@ -13,9 +13,7 @@
 - [计算类服务管理](/USDP/operate/service/compute_kind)
 - [存储类服务管理](/USDP/operate/service/storage_kind)
 - [监控类服务管理](/USDP/operate/service/monitor_kind)
-- [可视化类服务务管理](/USDP/operate/service/visual_kind)
-- [调度类服务管理](/USDP/operate/service/scheduler_kind)
-- [安全类服务管理](/USDP/operate/service/safe_kind)
+- [可视化类服务管理](/USDP/operate/service/visual_kind)
 
 关于USDP大数据集群中各个服务管理功能、配置修改等操作，均可参考此处完成。
 

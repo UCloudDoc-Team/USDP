@@ -130,7 +130,7 @@ HDFS服务管理首页展示了HDFS服务的监控指标（NameNode是否存活�
 
 参考 [Zookeeper 服务相关组件管理](/USDP/operate/service/storage_kind?id=Zookeeper服务相关组件管理) 方式
 
-### HDFS 服务相关Web UIs便捷访问
+### HDFS 服务Web UIs便捷访问
 
 USDP管理系统，根据HDFS 自身支持相关Web UI的特性，在集群管理页面提供快速打开其相关的UI的能力。
 

@@ -9,9 +9,7 @@
       * [计算类服务管理](/USDP/operate/service/compute_kind)
       * [存储类服务管理](/USDP/operate/service/storage_kind)
   * [监控类服务管理](/USDP/operate/service/monitor_kind)
-      * [可视化类服务务管理](/USDP/operate/service/visual_kind)
-      * [调度类服务管理](/USDP/operate/service/scheduler_kind)
-      * [安全类服务管理](/USDP/operate/service/safe_kind)
+      * [可视化类服务管理](/USDP/operate/service/visual_kind)
     * [监控管理](/USDP/operate/monitor)
     * [配置openvpn访问集群内网](/USDP/operate/openvpn)
     

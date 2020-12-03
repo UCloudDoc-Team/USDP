@@ -20,7 +20,7 @@ Zookeeper服务管理首页展示了Zookeeper服务的监控指标（Leader数�
 
 ![storage_zk_details_time](../../images/operate/service/storage_kind/storage_zk_details_time.png)
 
-### Zookeeper 服务相关组件管理
+### Zookeeper服务相关组件管理
 
 在Zookeeper组件管理页面种，点击“组件管理”选项卡，打开Zookeeper相关组件管理列表，如下图所示：
 
@@ -128,7 +128,7 @@ HDFS服务管理首页展示了HDFS服务的监控指标（NameNode是否存活�
 
 ### HDFS 服务相关组件管理
 
-参考 [Zookeeper 服务相关组件管理](/USDP/operate/service/storage_kind?id=Zookeeper 服务相关组件管理) 方式
+参考 [Zookeeper 服务相关组件管理](/USDP/operate/service/storage_kind?id=Zookeeper服务相关组件管理) 方式
 
 ### HDFS 服务相关Web UIs便捷访问
 

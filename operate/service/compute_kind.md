@@ -18,6 +18,8 @@ Yarn服务管理首页展示了Yarn服务的监控指标（ResourceManager活跃
 
 ### YARN 服务相关组件管理
 
+参考 [Zookeeper 服务相关组件管理](/USDP/operate/service/storage_kind?id=Zookeeper服务相关组件管理) 方式
+
 ### YARN 服务相关Web UIs便捷访问
 
 鼠标悬停/点击Yarn服务管理页面中“Web UIs”选项卡时，自动下拉展开Yarn相关的页面选项链接，如下图所示：
@@ -37,6 +39,8 @@ Yarn服务管理首页展示了Yarn服务的监控指标（ResourceManager活跃
 ![service_yarn_ui_ts](../../images/operate/service/compute_kind/service_yarn_ui_ts.png)
 
 ### YARN服务配置文件修改
+
+参考 [Zookeeper 服务配置文件修改](/USDP/operate/service/storage_kind?id=Zookeeper服务配置文件修改) 方式。
 
 ## 其他计算类服务管理
 

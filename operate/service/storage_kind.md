@@ -2,7 +2,13 @@
 
 在USDP1.0.0.0版本中，集群存储类服务组件主要有Elasticsearch、HBase、HDFS、Kafka、KUDU、Zookeeper在内的6个服务组件，下面将以Zookeeper及HDFS为代表展示存储类组件的管理操作方式。
 
-## Zookeeper 服务管理
+- [Zookeeper服务管理](/USDP/operate/service/storage_kind?id=Zookeeper服务管理)
+
+- [HDFS服务管理](/USDP/operate/service/storage_kind?id=HDFS服务管理)
+
+- [其他存储类服务管理](/USDP/operate/service/storage_kind?id=其他存储类服务管理)
+
+## Zookeeper服务管理
 
 点击选择左边菜单导航栏-“服务管理”-“存储类”，在展开的子类中点击“ZOOKEEPER”，即可在右侧窗口打开Zookeeper的管理页面，如下图：
 
@@ -106,7 +112,7 @@ myid配置分拣“分组1”中包含“udp02”节点，“分组2”中包含
 
 ![storage_zk_update1_group3](../../images/operate/service/storage_kind/storage_zk_update1_group3.png)
 
-## HDFS 服务管理
+## HDFS服务管理
 
 点击选择左边菜单导航栏-“服务管理”-“存储类”，在展开的子类中点击“HDFS”，即可在右侧窗口打开Hdfs的管理页面，如下图：
 

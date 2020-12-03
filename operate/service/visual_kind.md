@@ -2,7 +2,10 @@
 
 在USDP1.0.0.0版本中，集群可视化类服务组件主要有Hue、Kafkaeagle、Kibana、Zeppelin、ZKUI在内的5个服务组件，下面将以ZKUI为代表展示可视化类组件的管理操作，其他组件的管理方式均类似。
 
-## ZKUI 服务管理
+- [ZKUI服务管理](/USDP/operate/service/visual_kind?id=ZKUI服务管理)
+- [其他可视化类服务管理](/USDP/operate/service/visual_kind?id=其他可视化类服务管理)
+
+## ZKUI服务管理
 
 点击选择左边菜单导航栏-“服务管理”-“可视化类”，在展开的子类中点击“ZKUI”，即可在右侧窗口打开ZKUI的管理页面，如下图：
 

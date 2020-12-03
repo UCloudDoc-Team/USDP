@@ -4,7 +4,10 @@
 
 在USDP-1.0.0.0版本中，集群的计算类服务组件主要有Flink、Flume、Hive、Impala、Kylin、Livy、Phoenix、Presto、Spark、Sqoop、Tez、Yarn在内的11个服务组件，下面将以Yarn为代表，介绍计算类组件的管理操作方式。
 
-## YARN 服务管理
+- [YARN服务管理](/USDP/operate/service/compute_kind?id=YARN服务管理)
+- [其他计算类服务管理](/USDP/operate/service/compute_kind?id=其他计算类服务管理)
+
+## YARN服务管理
 
 点击选择左边菜单导航栏-“服务管理”-“计算类”，在展开的子类中点击“YARN”，即可在右侧窗口打开Yarn的管理页面，如下图所示：
 

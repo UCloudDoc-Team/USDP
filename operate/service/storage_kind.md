@@ -72,7 +72,7 @@ USDP管理控制台支持对当前Zookeeper服务扩展更多节点。如下图�
 
 此时，可根据向导中表单要求，选择需要扩展的新集群节点及服务预览等，最后点击“开始部署”即可完成服务扩展操作。
 
-### Zookeeper 服务配置文件修改
+### Zookeeper服务配置文件修改
 
 USDP支持对同一服务的多个节点配置文件同时进行配置文件修改，亦可对该组件服务的单个节点配置文件进行修改，点击“概览”-“修改配置”按钮，选择需要修改配置文件的节点。如下图所示：
 
@@ -144,7 +144,7 @@ USDP管理系统，根据HDFS 自身支持相关Web UI的特性，在集群管�
 
 ### HDFS 服务配置文件修改
 
-参考 [Zookeeper 服务配置文件修改](/USDP/operate/service/storage_kind?id=Zookeeper 服务配置文件修改) 方式。
+参考 [Zookeeper 服务配置文件修改](/USDP/operate/service/storage_kind?id=Zookeeper服务配置文件修改) 方式。
 
 ## 其他存储类服务管理
 

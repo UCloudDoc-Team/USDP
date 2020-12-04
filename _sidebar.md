@@ -5,7 +5,7 @@
 * 操作指南
     * [集群管理](/USDP/operate/cluster)
     * [节点管理](/USDP/operate/node/README)
-      * [云端资源节点管理](/USDP/operate/node/cloud_node)
+      * [公有云端资源节点管理](/USDP/operate/node/cloud_node)
       * [USDP控制台节点管理](/USDP/operate/node/usdp_node)
     * [服务管理](/USDP/operate/service/README)
   * [计算类服务管理](/USDP/operate/service/compute_kind)

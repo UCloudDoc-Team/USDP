@@ -21,7 +21,7 @@ USDP 构建于 UCloud 的云服务上，无缝集成云端 IaaS 资源能力，�
 * [集群管理](/USDP/operate/cluster)
 * [节点管理](/USDP/operate/node/README)
 * [服务管理](/USDP/operate/service/README)
-* [监控管理](/USDP/operate/monitor)
+* [监控管理](/USDP/operate/monitor/README)
 * [配置openvpn访问集群内网](/USDP/operate/openvpn)
   
   

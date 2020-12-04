@@ -1,4 +1,4 @@
-## Hive开发指南
+# USDP 开发指南-Hive
 
 Hive是Hadoop生态系统中的数据仓库产品。它可以简单方便的存储、查询和分析存储在HDFS或者HBase的数据，它将sql语句转换成MR/Tez/Spark任务，进行复杂的海量数据分析。它也提供了一系列工具，可用来多数据进行提取、转化和加载，USDP默认hive执行引擎为Tez。
 

@@ -17,11 +17,11 @@
 
 - 在已创建的USDP集群条目右侧，点击 <kbd>访问USDP</kbd> 按钮，进入USDP自有管理控制台。
 
-![node_ucloud_usdp_console_entrance](/Users/forrest/Documents/UCLOUD/BDPL/USDP&私有化/USDP文档/Github-USDP-docs/USDP/images/operate/node/node_ucloud_usdp_console_entrance.png)
+![node_ucloud_usdp_console_entrance](../../images/operate/node/node_ucloud_usdp_console_entrance.png)
 
 - 登陆USDP控制台
 
-![node_usdp_console_entrance](/Users/forrest/Documents/UCLOUD/BDPL/USDP&私有化/USDP文档/Github-USDP-docs/USDP/images/operate/node/node_usdp_console_login.png)
+![node_usdp_console_entrance](../../images/operate/node/node_usdp_console_login.png)
 
 在USDP控制台左侧导航栏 “服务管理”，USDP已将该集群所部署使用的所有大数据服务组件按以下6类统一归类，可点击前往查看各类中相关组件服务的管理操作方法：
 

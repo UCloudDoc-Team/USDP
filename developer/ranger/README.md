@@ -22,7 +22,7 @@ RANGER 是 Hadoop 生态中的一种权限管理框架，通过其可以实现�
 
    ![ranger-2020112774628ranger](../../images/developer/ranger/ranger-2020112774628ranger.png)
 
-   ``注：默认登录的账号：admin，密码为：admin，建议您及时修改admin用户密码。``
+   ?>注：默认登录的账号：admin，密码为：admin，建议您及时修改admin用户密码。
 
 ### 方法二
 
@@ -36,7 +36,7 @@ http://usdp-xxx-master1:6080/login.jsp
 
 
 
-``注意：无论方法一/二，均需要您操作的浏览器所在节点与集群各节点可内网互通。``
+?>注意：无论方法一/二，均需要您操作的浏览器所在节点与集群各节点可内网互通。
 
 ## 各服务组件集成Ranger
 
@@ -48,5 +48,5 @@ http://usdp-xxx-master1:6080/login.jsp
 
 
 
-`注意：本篇指南是以USDP V1.0.0.0版本，涉及的集群组件的部署路径`参见[各服务部署规则](/USDP/developer/rule)。
+?>注意：本篇指南是以USDP V1.0.0.0版本，涉及的集群组件的部署路径，参见[各服务部署规则](/USDP/developer/rule)。
 

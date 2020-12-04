@@ -10,7 +10,7 @@
 /srv/udp/1.0.0.0/hive/ranger-hive-plugin/enable-hive-plugin.sh 
 ~~~
 
-`注：可通过 USDP 控制台查看 Hive 相关组件中，HiveServer2 运行在集群的哪个节点上。`
+?>注：可通过 USDP 控制台查看 Hive 相关组件中，HiveServer2 运行在集群的哪个节点上。
 
 此时会在当前节点的 Hive 配置文件目录中自动变更如下配置文件：
 
@@ -24,7 +24,7 @@ ranger-policymgr-ssl.xml
 ranger-security.xml
 ~~~
 
-``注意：此时，需要通过 USDP 控制台重启 HiveServer2``
+!>注意：此时，需要通过 USDP 控制台重启 HiveServer2
 
 #### 2. 在USDP控制台完成 HiveServer2 服务重启
 
@@ -50,7 +50,7 @@ ranger-security.xml
 ranger-hive-service
 ~~~
 
-`注意: 此处必须填写此值！`
+!>注意: 此处必须填写此值！
 
 ![ranger-20201117145448335](../../images/developer/ranger/ranger-20201117145448335.png)
 
@@ -75,7 +75,7 @@ Password：hadoop
 jdbc:hive2://10.9.136.30:10000
 ~~~
 
-`注意：该示例中的 IP 地址为 HiveServer2 所在节点的内网 IP。`
+?>注意：该示例中的 IP 地址为 HiveServer2 所在节点的内网 IP。
 
 #### 6. 配置代理参数
 
@@ -107,7 +107,7 @@ policy.download.auth.users: hadoop
 
 ![ranger-20201106134013185](../../images/developer/ranger/ranger-20201106134013185.png)
 
-``注：Select Role 中，选择 User 类型，而非 Admin 类型。``
+?>注：Select Role 中，选择 User 类型，而非 Admin 类型。
 
 #### 2. 在 Linux 中添加用户
 
@@ -192,7 +192,7 @@ useradd test1
 
 ![ranger-20201117153048597](../../images/developer/ranger/ranger-20201117153048597.png)
 
-``注：权限添加后，大约需要 1 分钟即可生效。``
+?>注：权限添加后，大约需要 1 分钟即可生效。
 
 ### 验证权限配置
 

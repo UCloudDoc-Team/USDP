@@ -70,7 +70,7 @@ Grafana服务管理首页展示了Grafana“服务是否存活”的状态监控
 
 ![storage_grafana_ui_details](../../images/operate/service/monitor_kind/service_grafana_ui_details.png)
 
-!>登陆口令如下，请登陆后及时修改密码！</br>- 用户名：当前集群名称         - 密码：0okm9ijn)OKM(IJN
+!>默认登陆口令如下，请登陆后及时修改密码！</br>- 用户名：当前集群名称         - 密码：0okm9ijn)OKM(IJN
 
 ### Grafana 服务配置文件修改
 

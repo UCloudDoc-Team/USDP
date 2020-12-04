@@ -90,7 +90,7 @@ USDP会将Zookeeper的所有配置文件内容加载到该页面的编辑框内�
 
 ![storage_zk_update1](../../images/operate/service/storage_kind/storage_zk_update1.png)
 
-`注意：已上图为例，一般情况下，Zookeeper对配置文件“Log4j.properties”内容要求在各个节点是一致的，因此，当您选择对udp02、udp08、udp09三个节点的Log4j.properties文件进行配置修改并确定修改后，将对该三个节点同时生效。而udp10节点上的Log4j.properties配置文件，则需要另行修改。`
+?>注意：已上图为例，一般情况下，Zookeeper对配置文件“Log4j.properties”内容要求在各个节点是一致的，因此，当您选择对udp02、udp08、udp09三个节点的Log4j.properties文件进行配置修改并确定修改后，将对该三个节点同时生效。而udp10节点上的Log4j.properties配置文件，则需要另行修改。
 
 #### Zookeeper 服务配置文件分组
 
@@ -98,7 +98,7 @@ USDP支持对同一服务组件的同一配置文件的不同内容进行分组�
 
 ![storage_zk_update1_group](../../images/operate/service/storage_kind/storage_zk_update1_group.png)
 
-`分组：分组的调整，仅在本次配置文件调整操作时生效，USDP并不记录分组的状态。分组的意义，是对您在配置文件修改操作时能更好的结合您的调整计划，便于区分某些配置项作用域为局部，而非全局。保存修改时，USDP将根据分组中的配置文件，在分组指定的节点上生效。`
+?>分组：分组的调整，仅在本次配置文件调整操作时生效，USDP并不记录分组的状态。分组的意义，是对您在配置文件修改操作时能更好的结合您的调整计划，便于区分某些配置项作用域为局部，而非全局。保存修改时，USDP将根据分组中的配置文件，在分组指定的节点上生效。
 
 如下图所示，已将Log4j.properties配置文件“udp02”及“udp08”节点调整至“分组2”，而“分组1”中包括“udp09”及“upd10”两个节点。
 

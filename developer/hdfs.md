@@ -33,7 +33,7 @@ HDFS 是一个具有高容错、高吞吐特性的分布式文件系统。HDFS �
 /srv/udp/1.0.0.0/hdfs/bin/hadoop fs -get [-p] [-ignoreCrc] [-crc]
 ~~~
 
-``注：更多请参考 hadoop fs -help``
+?>注：更多请参考 hadoop fs -help`
 
 ## 2. WebHDFS 接口
 
@@ -43,7 +43,7 @@ WebHDFS 提供 HDFS 的 RESTful 接口，可通过此接口进行 HDFS 文件操
 
 USDP 集群默认开启 HDFS NameNode 组件的高可用，同一时刻，只有一个节点处于 [active] 状态，另外一个 NameNode 组件处于 [standby] 状态。
 
-``注：在进行 WebHDFS 接口操作时，请先确保所调用接口的 NameNode 处于 [active] 状态。``
+?>注：在进行 WebHDFS 接口操作时，请先确保所调用接口的 NameNode 处于 [active] 状态。
 
 * 准备数据
 
@@ -136,7 +136,7 @@ HttpFS 与 WebHDFS 的区别是：HttpFS 不需要客户端访问集群的每一
   curl -i -X PUT -T httpfs_ucloud.txt --header "Content-Type: application/octet-stream" "http://<HttpFS Hostname>:14000/webhdfs/v1/tmp/httpfs_ucloud.txt?op=CREATE&user.name=hadoop&data=true"
   ~~~
 
-  ``注：url中需添加 user.name，否则会报"HTTP Status 401 - Authentication required"错误``
+  ?>注：url中需添加 user.name，否则会报"HTTP Status 401 - Authentication required"错误
 
 ### 3.2  追加文件
 
@@ -171,7 +171,7 @@ curl -i -X DELETE "http://<HttpFS Hostname>:14000/webhdfs/v1/tmp/httpfs_ucloud.t
 
 USDP 控制台页面可以对服务下的组件进行启停操作，除此之外，用户也可以通过 SSH 登录到节点执行脚本对组件进行启停操作。
 
-``注：下面将以 USDP V1.0.0.0 为例进行说明。``
+?>注：下面将以 USDP V1.0.0.0 为例进行说明。
 
 * NameNode 启停
 
@@ -260,4 +260,4 @@ FSCK ended at Thu Oct 29 13:13:00 CST 2020 in 59 milliseconds
 The filesystem under path '/' is HEALTHY
 ~~~
 
-``注：述HEALTHY表示当前HDFS文件系统正常，无坏块或者数据丢失``
+?>注：述HEALTHY表示当前HDFS文件系统正常，无坏块或者数据丢失

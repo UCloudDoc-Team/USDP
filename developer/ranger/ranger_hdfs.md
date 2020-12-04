@@ -12,7 +12,7 @@ HDFS 作为底层存储，本章节将以 HDFS 为例，进行说明。
 /srv/udp/1.0.0.0/hdfs/ranger-hdfs-plugin/enable-hdfs-plugin.sh 
 ~~~
 
-`注：可通过 USDP 控制台查看 HDFS 相关组件中，NameNode1、NameNode2 分别运行在集群的哪些节点上。`
+?>注：可通过 USDP 控制台查看 HDFS 相关组件中，NameNode1、NameNode2 分别运行在集群的哪些节点上。
 
 此时会在当前节点的如下目录自动生成相关权限配置：
 
@@ -41,7 +41,7 @@ ranger-hdfs-plugin-shim-1.2.0.jar -> /srv/udp/1.0.0.0/hdfs/ranger-hdfs-plugin/li
 ranger-plugin-classloader-1.2.0.jar -> /srv/udp/1.0.0.0/hdfs/ranger-hdfs-plugin/lib/ranger-plugin-classloader-1.2.0.jar
 ~~~
 
-``注意：此时，需要通过 USDP 控制台重启两个NameNode，参见1.1.2节``
+!>注意：此时，需要通过 USDP 控制台重启两个NameNode，参见1.1.2节
 
 #### 2. 在USDP控制台完成两个NameNode服务重启
 
@@ -67,7 +67,7 @@ ranger-plugin-classloader-1.2.0.jar -> /srv/udp/1.0.0.0/hdfs/ranger-hdfs-plugin/
 ranger-hdfs-service
 ~~~
 
-`注意: 此处必须填写此值！`
+!>注意: 此处必须填写此值！
 
 ![ranger-20201106131359431](../../images/developer/ranger/ranger-20201106131359431.png)
 
@@ -88,7 +88,7 @@ Password：hadoop
 hdfs://usdp-xxx-master1:8020,hdfs://usdp-xxx-master2:8020
 ~~~
 
-`注意：请替换示例中主机名字符串中的“xxx”为正确的主机名字符串。`
+?>注意：请替换示例中主机名字符串中的“xxx”为正确的主机名字符串。
 
 填入规则如下图所示：
 
@@ -126,7 +126,7 @@ policy.download.auth.users: hadoop
 
 ![ranger-20201106134013185](../../images/developer/ranger/ranger-20201106134013185.png)
 
-``注：Select Role 中，选择 User 类型，而非 Admin 类型。``
+!>注：Select Role 中，选择 User 类型，而非 Admin 类型。
 
 #### 2. 在 Linux 中添加用户
 
@@ -210,7 +210,7 @@ drwxr-xr-x   - hadoop supergroup          0 2020-11-06 11:28 /user
 
 ![ranger-20201106134520978](../../images/developer/ranger/ranger-20201106134520978.png)
 
-``注：权限添加后，大约需要 1 分钟左右即会生效。``
+?>注：权限添加后，大约需要 1 分钟左右即会生效。
 
 ## 验证权限配置
 

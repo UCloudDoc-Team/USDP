@@ -67,10 +67,7 @@ Hive提供了一个可通过JDBC方式调用的服务Hive-server2（服务端口
 beeline> !connect jdbc:hive2://ip:10000/default;
 ```
 
-> 注解：
-
-1.  用户名、密码默认可填空值
-2.  ip修改为hive-server2的安装机器的ip
+?>注解：</br> 1.  用户名、密码默认可填空值</br> 2. ip修改为hive-server2的安装机器的ip
 
 - 数据操作
 

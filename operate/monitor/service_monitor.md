@@ -22,7 +22,7 @@ USDP提供丰富的服务监控能力，对集群中各服务实现统一的监�
 
 ![storage_grafana_ui_details](../../images/operate/service/monitor_kind/service_grafana_ui_details.png)
 
-!>登陆口令如下，请登陆后及时修改密码！</br>- 用户名：当前集群名称         - 密码：0okm9ijn)OKM(IJN
+!>默认登陆口令如下，请登陆后及时修改密码！</br>- 用户名：当前集群名称         - 密码：0okm9ijn)OKM(IJN
 
 - 登陆后进入Grafana首页，如下图所示：
 

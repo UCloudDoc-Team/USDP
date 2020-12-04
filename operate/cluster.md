@@ -1,6 +1,11 @@
 # 集群管理
 
-## 创建集群资源
+[开始创建集群资源](/USDP/operate/cluster?id=开始创建集群资源)
+
+[开始部署集群服务和组件](/USDP/operate/cluster?id=开始部署集群服务和组件)
+
+## 开始创建集群资源
+
 登陆[UCloud云控制台](https://console.ucloud.cn/)。
 
 #### 1 进入产品页面
@@ -23,7 +28,7 @@
 
 在此模块需要您设置并完善新集群所属VPC和子网信息、集群名称填写、框架及版本信息。
 
-备注：集群名称也是高可用NameNode的Namespace名称，需要字母和数字的组合，首位必须是字母
+?>集群名称也是高可用NameNode的Namespace名称，需要字母和数字的组合，首位必须是字母
 
 ![](../images/operate/cluster/集群和软件设置.png)
 
@@ -66,7 +71,9 @@
 ## 开始部署集群服务和组件
 
 ###  使用USDP管理控制台部署服务
-点击 <kbd>访问USDP</kbd> 按钮，进入USDP管理页面。
+在已创建的USDP集群条目右侧，点击 <kbd>访问USDP</kbd> 按钮，进入USDP自有管理控制台。
+
+![node_ucloud_usdp_console_entrance](../images/operate/node/node_ucloud_usdp_console_entrance.png)
 
 #### 1 进入登录页面登录到USDP管理控制台
     第一次登录需要设置admin用户名的登录密码。如下所示：

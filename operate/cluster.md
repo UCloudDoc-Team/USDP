@@ -1,11 +1,13 @@
 # 集群管理
 
 ## 创建集群资源
+登陆[UCloud云控制台](https://console.ucloud.cn/)。
+
 #### 1 进入产品页面
 
-登录UCloud云控制台后，在导航栏点击 <kbd>全部产品</kbd> 展开产品列表，在数据分析栏点击 <kbd>智能大数据平台USDP</kbd> 进入产品页面。
+进入公有云控制台首页后，点击左上角“全部产品”，在“数据分析”类目中点击“智能大数据平台USDP”，进入USDP集群管理页面。
 
-或可将“智能大数据平台USDP”设置为快捷方式，通过控制台左侧快捷方式菜单栏点击 <kbd>智能大数据平台USDP</kbd> 进入，快捷方式可有效提高您后期日常的集群维护等相关操作。
+![ucloud_console_usdp](../images/operate/cluster/ucloud_console_usdp.png)
 
 #### 2 点击 <kbd>创建集群</kbd> 按钮开始创建USDP集群资源
 

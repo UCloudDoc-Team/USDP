@@ -10,7 +10,7 @@
 
 ![node_ucloud_usdp_entrance](../../images/operate/node/node_ucloud_usdp_entrance.png)
 
-在已创建的USDP集群条目右侧，点击 <kbd>集群管理</kbd> 按钮，进入USDP集群管理页面，再点击 <kbd>监控信息</kbd> 选项卡后，即可查看针对当前集群的所有云端节点资源的指标监控。
+在已创建的USDP集群条目右侧，点击 <kbd>集群管理</kbd> 按钮，进入USDP集群管理页面，再点击 <kbd>监控信息</kbd> 标签页后，即可查看针对当前集群的所有云端节点资源的指标监控。
 
 - [集群基础监控详情](/USDP/operate/monitor/basic_monitor)
 

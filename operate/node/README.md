@@ -10,7 +10,7 @@ USDP 大数据平台，在云端实现了两层管理能力，即公有云端的
 
 ![node_ucloud_usdp_entrance](../../images/operate/node/node_ucloud_usdp_entrance.png)
 
-- 在已创建的USDP集群条目右侧，点击 <kbd>集群管理</kbd> 按钮，进入USDP集群管理页面，再点击 <kbd>节点管理</kbd> 选项卡后，即可查看当前集群的所有云端资源列表信息。
+- 在已创建的USDP集群条目右侧，点击 <kbd>集群管理</kbd> 按钮，进入USDP集群管理页面，再点击 <kbd>节点管理</kbd> 标签页后，即可查看当前集群的所有云端资源列表信息。
 
 ![node_ucloud_usdp_nodemanager](../../images/operate/node/node_ucloud_usdp_nodemanager.png)
 

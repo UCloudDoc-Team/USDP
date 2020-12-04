@@ -26,7 +26,7 @@
 
 ![usdp_console_node_single_details](../../images/operate/node/usdp_node/usdp_console_node_single_details.png)
 
-?>概览页支持按既定的时间范围查看当前节点的性能表现，支持自定时间范围，可选的有：</br>1小时内</br>6小时内</br>12小时内</br>1天内</br>7天内</br>15天内</br>30天内</br>自定义
+?>概览页支持按既定的时间范围查看当前节点的性能表现，支持自定时间范围，可选的有：</br>	1小时内</br>	6小时内</br>	12小时内</br>	1天内</br>	7天内</br>	15天内</br>	30天内</br>	自定义
 
 对当前节点更加丰富的监控指标维度图表信息查看，可参考公有云控制台USDP集群节点监控信息页面查看。
 

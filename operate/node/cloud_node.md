@@ -21,11 +21,13 @@
 1）首先需要在基础网络产品页面申请一个EIP，可参考[EIP操作指南](https://docs.ucloud.cn/unet/eip/guide)
 ![](../../images/operate/node/cloud_node/申请EIP.png)
 
-2）然后到智能大数据平台USDP的节点管理进行绑定EIP操作。
+2）回到到智能大数据平台USDP的节点管理进行绑定EIP操作。
 
 ![](../../images/operate/node/cloud_node/绑定EIP.png)
 
-!>提示：</br>绑定EIP之后，请配置好防火墙[防火墙操作指南](https://docs.ucloud.cn/unet/firewall/guide)，避免被入侵。
+?>仅允许给Master节点、Monitor节点绑定EIP。
+
+!>提示：</br>为避免受到来自互联网的入侵和攻击，事先配置好防火墙策略[防火墙操作指南](https://docs.ucloud.cn/unet/firewall/guide)，再执行给资源节点“绑定EIP”的操作。
 
 ## 资源节点登录
 
@@ -45,5 +47,5 @@
 
 支持对指定的节点进行 <kbd>关机</kbd> 、<kbd>开机</kbd> 、<kbd>重启</kbd> 、<kbd>删除</kbd> 等操作。请点击节点列表右侧具体节点操作栏中相关按钮，及 <kbd>...</kbd> 按钮展开操作菜单。
 
-删除节点之前需要到USDP管理页面下线服务，否则会删除失败。
+!>删除节点之前需要到USDP管理页面下线该节点上部署的服务，否则会删除失败。
 

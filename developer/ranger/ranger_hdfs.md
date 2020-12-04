@@ -41,7 +41,7 @@ ranger-hdfs-plugin-shim-1.2.0.jar -> /srv/udp/1.0.0.0/hdfs/ranger-hdfs-plugin/li
 ranger-plugin-classloader-1.2.0.jar -> /srv/udp/1.0.0.0/hdfs/ranger-hdfs-plugin/lib/ranger-plugin-classloader-1.2.0.jar
 ~~~
 
-!>注意：此时，需要通过 USDP 控制台重启两个NameNode，参见1.1.2节
+!>注意：此时，需要通过 USDP 控制台重启两个NameNode
 
 #### 2. 在USDP控制台完成两个NameNode服务重启
 

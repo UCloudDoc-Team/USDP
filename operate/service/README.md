@@ -34,6 +34,6 @@
 
 
 
-对某一集群组件的配置文件管理，可参考如下方法：
+对某一集群组件的配置文件管理，USDP有统一的方法说明，请参考如下链接中的描述：
 
 - [服务配置文件管理](/USDP/operate/service/service_configer_update)

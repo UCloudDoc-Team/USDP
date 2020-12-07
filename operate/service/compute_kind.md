@@ -43,7 +43,7 @@ Yarn服务管理首页展示了Yarn服务的监控指标（ResourceManager活跃
 
 ### YARN服务配置文件修改
 
-参考 [Zookeeper 服务配置文件修改](/USDP/operate/service/storage_kind?id=Zookeeper服务配置文件修改) 方式。
+参考 [服务配置文件管理](/USDP/operate/service/service_configer_update?id=在USDP控制台中更改服务配置文件) 方式。
 
 ## 其他计算类服务管理
 

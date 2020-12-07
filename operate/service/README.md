@@ -32,3 +32,8 @@
 
 关于USDP大数据集群中各个服务管理功能、配置修改等操作，均可参考此处完成。
 
+
+
+对某一集群组件的配置文件管理，可参考如下方法：
+
+- [服务配置文件管理](/USDP/operate/service/service_configer_update)

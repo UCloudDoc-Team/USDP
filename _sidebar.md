@@ -13,11 +13,10 @@
       * [监控类服务管理](/USDP/operate/service/monitor_kind)
       * [可视化类服务管理](/USDP/operate/service/visual_kind)
       * [服务配置文件管理](/USDP/operate/service/service_configer_update)
-      * 
-  * [监控管理](/USDP/operate/monitor/README)
-    * [集群基础监控](/USDP/operate/monitor/basic_monitor)
-    * [集群服务监控](/USDP/operate/monitor/service_monitor)
-  * [配置openvpn访问集群内网](/USDP/operate/openvpn)
+    * [监控管理](/USDP/operate/monitor/README)
+      * [集群基础监控](/USDP/operate/monitor/basic_monitor)
+      * [集群服务监控](/USDP/operate/monitor/service_monitor)
+    * [配置openvpn访问集群内网](/USDP/operate/openvpn)
   
 * 开发指南
     * [各服务部署规则](/USDP/developer/rule)

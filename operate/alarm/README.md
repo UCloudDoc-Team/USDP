@@ -13,9 +13,7 @@
 
 ## 公有云端资源节点告警设置
 
-
-
-
+待补充
 
 
 
@@ -38,10 +36,10 @@
 详尽的集群告警模板管理、通知方式管理、告警设置生效，均需在USDP控制台内完成，参考如下内容：
 
 * [告警模板管理](/USDP/operate/alarm/alarm_template)
-* [通知方式管理](/USDP/operate/alarm/notification_object)
+* [设置告警邮件发送服务](/USDP/operate/alarm/set_emailserver)
+* [通知对象管理](/USDP/operate/alarm/notification_object)
+* [通知组管理](/USDP/operate/alarm/notification_group)
 * [告警设置](/USDP/operate/alarm/set_alarm)
-
-
 
 关于USDP大数据集群告警相关的所有配置更改及管理，均可参考本篇指南完成。
 

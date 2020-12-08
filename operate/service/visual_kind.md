@@ -2,6 +2,10 @@
 
 在USDP1.0.0.0版本中，集群可视化类服务组件主要有Hue、Kafkaeagle、Kibana、Zeppelin、ZKUI在内的5个服务组件，下面将以ZKUI为代表展示可视化类组件的管理操作，其他组件的管理方式均类似。
 
+
+
+**通过本篇指南，您可以了解到：**
+
 - [ZKUI服务管理](/USDP/operate/service/visual_kind?id=ZKUI服务管理)
 - [其他可视化类服务管理](/USDP/operate/service/visual_kind?id=其他可视化类服务管理)
 
@@ -33,7 +37,7 @@ ZKUI服务管理首页展示了ZKUI“服务是否存活”的监控指标，如
 
 ### ZKUI 服务配置文件修改
 
-参考 [Zookeeper 服务配置文件修改](/USDP/operate/service/storage_kind?id=Zookeeper服务配置文件修改) 方式。
+参考 [服务配置文件管理](/USDP/operate/service/service_configer_update?id=在USDP控制台中更改服务配置文件) 方式。
 
 ## 其他可视化类服务管理
 

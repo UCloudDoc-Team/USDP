@@ -16,7 +16,11 @@
     * [监控管理](/USDP/operate/monitor/README)
       * [集群基础监控](/USDP/operate/monitor/basic_monitor)
       * [集群服务监控](/USDP/operate/monitor/service_monitor)
-    * [配置openvpn访问集群内网](/USDP/operate/openvpn)
+    * [告警管理](/USDP/operate/alarm/README)
+      * [告警模板管理](/USDP/operate/alarm/alarm_template)
+      * [通知方式管理](/USDP/operate/alarm/notification_object)
+      * [告警设置](/USDP/operate/alarm/set_alarm)
+  * [配置openvpn访问集群内网](/USDP/operate/openvpn)
   
 * 开发指南
     * [各服务部署规则](/USDP/developer/rule)

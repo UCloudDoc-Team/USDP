@@ -3,7 +3,6 @@
 USDP提供丰富的服务监控能力，对集群中各服务实现统一的监控数据采集，并通过Grafana统一管理和展示给使用用户，便于集群管理及开发者，对集群监控状况进行维护。
 
 - [集群服务监控-监控图表](/USDP/operate/monitor/service_monitor?id=集群服务监控-监控图表)
-
 - [查看各服务的监控图表](/USDP/operate/monitor/service_monitor?id=查看各服务的监控图表)
   - [查看HDFS服务监控图表](/USDP/operate/monitor/service_monitor?id=查看HDFS服务监控图表)
   - [查看YARN服务监控图表](/USDP/operate/monitor/service_monitor?id=查看YARN服务监控图表)
@@ -11,8 +10,6 @@ USDP提供丰富的服务监控能力，对集群中各服务实现统一的监�
   - [查看HBASE服务监控图表](/USDP/operate/monitor/service_monitor?id=查看HBASE服务监控图表)
   - [查看ZOOKEEPER服务监控图表](/USDP/operate/monitor/service_monitor?id=查看ZOOKEEPER服务监控图表)
   - [查看集群节点JVM监控图表](/USDP/operate/monitor/service_monitor?id=查看集群节点JVM监控图表)
-  - [查看USDP管理服务监控图表](/USDP/operate/monitor/service_monitor?id=查看USDP管理服务监控图表)
-
 - [查看更多其他服务监控图表](/USDP/operate/monitor/service_monitor?id=查看更多其他服务监控图表)
 
 ## 集群服务监控-监控图表

@@ -2,9 +2,8 @@
 
 集群基础监控信息及图表，可通过以下两种途径查看。
 
-[在公有云端USDP集群“监控管理”](/USDP/operate/monitor/basic_monitor?id=在公有云端USDP集群"监控管理")
-
-[在USDP控制台查看集群节点监控信息](/USDP/operate/monitor/basic_monitor?id=在USDP控制台查看集群节点监控信息)
+- [在公有云端USDP集群“监控管理”](/USDP/operate/monitor/basic_monitor?id=在公有云端USDP集群"监控管理")
+- [在USDP控制台查看集群节点监控信息](/USDP/operate/monitor/basic_monitor?id=在USDP控制台查看集群节点监控信息)
 
 ## 在公有云端USDP集群“监控管理”
 

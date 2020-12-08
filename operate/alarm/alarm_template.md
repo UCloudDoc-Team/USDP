@@ -116,4 +116,4 @@ USDP允许用户创建全新的空白模板，亦可通过复制现有的模板�
 
 ![](../../images/operate/alarm/alarm_template/alarm_usdp_tamplate_delete.png)
 
-!>USDP不允许用户 “勾选” 及删除系统预置的所有默认告警模板。
+!>USDP不允许用户 “勾选” 及 “删除” 系统预置的所有默认告警模板。

@@ -3,7 +3,7 @@
 * [产品概述](/USDP/README)
 * [产品特点](/USDP/intro.md)
 * 操作指南
-    * [集群管理](/USDP/operate/cluster)
+    * [集群创建](/USDP/operate/cluster)
     * [节点管理](/USDP/operate/node/README)
       * [公有云端资源节点管理](/USDP/operate/node/cloud_node)
       * [USDP控制台节点管理](/USDP/operate/node/usdp_node)

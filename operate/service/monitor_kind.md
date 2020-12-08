@@ -2,10 +2,12 @@
 
 在USDP1.0.0.0版本中，集群监控类服务组件主要有AlterManager、Grafana、InfluxDB、NodeExporter、Prometheus在内的5个服务组件，下面，将以Prometheus及Grafana为代表展示监控类组件的管理操作，其他组件的管理方式均类似。
 
+
+
+**通过本篇指南，您可以了解到：**
+
 - [Prometheus服务管理](/USDP/operate/service/monitor_kind?id=Prometheus服务管理)
-
 - [Grafana服务管理](/USDP/operate/service/monitor_kind?id=Grafana服务管理)
-
 - [其他监控类服务管理](/USDP/operate/service/monitor_kind?id=其他监控类服务管理)
 
 ## Prometheus服务管理

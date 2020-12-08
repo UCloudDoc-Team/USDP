@@ -5,9 +5,9 @@
 - 在USDP控制台中更改服务配置文件，这是我们强烈推荐方式
 - 逐一登陆服务分布式节点并更改其配置文件
 
-?>部分服务配置文件修改，可能会引起相关的其他服务进行重启生效。
 
 
+**通过本篇指南，您可以了解到：**
 
 - [在USDP控制台中更改服务配置文件](/USDP/operate/service/service_configer_update?id=在USDP控制台中更改服务配置文件)
   - [配置文件默认分组](/USDP/operate/service/service_configer_update?id=配置文件默认分组)
@@ -83,7 +83,7 @@ USDP支持对同一服务的同一配置文件进行比对和自动分组，避�
 
 ![storage_zk_update1_group1](../../images/operate/service/service_configer_update/service_configer_yarn_reboot.png)
 
-?>可根据您当前业务的重要性情况，在分析业务低峰期勾选提示项组件，执行滚动重启/批量重启。
+?>可根据您当前业务的重要性情况，在分析业务低峰期勾选提示项组件，执行滚动重启/批量重启。</br>部分服务配置文件修改，与其关联性比较强的其他服务可能需要进行重启生效，其他的并非必须重启。
 
 ## 逐一登陆服务分布式节点并更改其配置文件
 

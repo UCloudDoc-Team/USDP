@@ -18,7 +18,7 @@ USDP 构建于 UCloud 的云服务上，无缝集成云端 IaaS 资源能力，�
 
 本章节为您介绍 USDP 的主要功能模块以及具体的操作方法。
 
-* [集群管理](/USDP/operate/cluster)
+* [集群创建](/USDP/operate/cluster)
 * [节点管理](/USDP/operate/node/README)
 * [服务管理](/USDP/operate/service/README)
 * [监控管理](/USDP/operate/monitor/README)

@@ -7,7 +7,7 @@
 **通过本篇指南，您可以了解到：**
 
 - [公有云端资源节点告警设置](/USDP/operate/alarm/README?id=公有云端资源节点告警设置)
-- [在USDP控制台查看集群“服务管理”](/USDP/operate/alarm/README?id=集群告警设置)
+- [集群告警设置](/USDP/operate/alarm/README?id=集群告警设置)
 
 
 

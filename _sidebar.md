@@ -1,5 +1,5 @@
 
-* [产品概述](/USDP/README)
+* [产品概述.](/USDP/README)
 * [产品特点](/USDP/intro.md)
 * 操作指南
     * [集群创建](/USDP/operate/cluster)

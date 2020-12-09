@@ -14,7 +14,7 @@ USDP管理服务是每个用户独享的，因此在使用邮件接收集群相�
 
 ![](../../images/operate/alarm/set_emailserver/notify_usdp_set_email.png)
 
-!> USDP管理服务即为用户独享，且USDP管理服务默认是部署在集群Master1节点上，因此，需要为该集群Master1节点配置EIP，否则将服务配置及发送告警邮件。添加 EIP及防火配置，可前往 [绑定EIP、设置防火墙](/USDP/operate/node/cloud_node?id=绑定eip、设置防火墙) 参考。
+!> USDP管理服务即为用户独享，且USDP管理服务默认是部署在集群Master1节点上，因此，需要为该集群Master1节点配置EIP，否则将无法配置邮件发送服务器及发送告警邮件。添加 EIP及防火配置，可前往 [绑定EIP、设置防火墙](/USDP/operate/node/cloud_node?id=绑定eip、设置防火墙) 参考。
 
 - 点击 <kbd>立即配置</kbd> 按钮，在弹出的 “配置邮件发送服务器” 对话框中来配置，如下图所示：
 

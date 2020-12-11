@@ -18,11 +18,11 @@ USDP 构建于 UCloud 的云服务上，无缝集成云端 IaaS 资源能力，�
 
 大数据环境的管理员用户或开发者用户，可通过本章节了解到 USDP 各个模块的文档介绍，帮助您快速上手 USDP，了解如何在公有云环境中使用及管理 USDP 集群及服务的具体操作方法。
 
-* [集群创建](/USDP/operate/cluster)
-* [节点管理](/USDP/operate/node/README)
-* [服务管理](/USDP/operate/service/README)
-* [监控管理](/USDP/operate/monitor/README)
-* [告警管理](/USDP/operate/alarm/README)
+* [集群创建-指南](/USDP/operate/cluster)
+* [节点管理-指南](/USDP/operate/node/README)
+* [服务管理-指南](/USDP/operate/service/README)
+* [监控管理-指南](/USDP/operate/monitor/README)
+* [告警管理-指南](/USDP/operate/alarm/README)
 * [配置openvpn访问集群内网](/USDP/operate/openvpn)
 
 ## 开发指南
@@ -34,7 +34,6 @@ USDP 构建于 UCloud 的云服务上，无缝集成云端 IaaS 资源能力，�
 * [USDP开发指南-Hive](/USDP/developer/hive)
 * [USDP开发指南-Ranger](/USDP/developer/ranger/README)
 * [USDP开发指南-Airflow](/USDP/developer/airflow)
-  
 ## 产品价格
 
 本章节为您介绍 USDP 产品的计费方式和具体价格。

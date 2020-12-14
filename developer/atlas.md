@@ -2,18 +2,28 @@
 
 Apache Atlas 是 Hadoop 社区为解决 Hadoop 生态系统的元数据治理问题而产生的开源项目，它为Hadoop 生态系统集群提供了包括数据分类、集中策略引擎、数据血缘、安全和生命周期管理在内的元数据治理核心能力。
 
-## Atlas 使用实例
+## Atlas 使用示例
 
-设置 Atlas  访问端口为 21313，通过安装节点 IP:21313 访问 ，如 http://192.168.1.1:21313。进入如下界面，默认用户名和密码为 hadoop，hadoop，如下图所示：
+### 1. 登录Atlas Web UI
+
+点击 USDP 控制台左侧导航菜单 <kbd>服务管理</kbd> - <kbd>元数据管理类</kbd> - <kbd>ATLAS</kbd> ，进入ATLAS详情页，点击 <kbd>Web UIs</kbd> 即可打开当前集群的 UDS 任务管理服务控制台。
+
+![img](../images/developer/atlas/usdp_atlas.png)
+
+![img](../images/developer/atlas/atlas_login.png)
+
+管理员账号，参见 [各服务Web UIs登录账号](/USDP/operate/login) 指南文档。
+
+### 2. Atlas Web UI首页
 
 ![img](../images/developer/atlas/16073970384716.png)
 
-- ### 全量导入数据
-  - USDP 使用 Atlas 管理 Hive 数据，可以通过以下脚本把 hive 数据全量导入 atlas 。
+### 3. 全量导入数据
+- USDP 使用 Atlas 管理 Hive 数据，可以通过以下脚本把 hive 数据全量导入 atlas 。
 
-    ```shell
-    sh /srv/udp/1.0.0.0/atlas/bin/import-hive.sh
-    ```
+  ```shell
+  sh /srv/udp/1.0.0.0/atlas/bin/import-hive.sh
+  ```
 
 - ### 实时同步
 
@@ -32,8 +42,9 @@ Apache Atlas 是 Hadoop 社区为解决 Hadoop 生态系统的元数据治理问
     WebUI 可以实时搜索到如下 Hive 表，如下图所示：
 
     ![img](../images/developer/atlas/1607398637701.png)
+    
+### 4. Hive 元数据 Lineage 查看
 
-- ### Hive 元数据 Lineage 查看
   - Atlas WebUI 搜索到某个表后，可以看到这个表的  Lineage，如上面创建的 t_udp_service_component_mapping_old，如下图所示：
 
     ![img](../images/developer/atlas/16073989954242.png)

@@ -34,8 +34,15 @@ USDP 构建于 UCloud 的云服务上，无缝集成云端 IaaS 资源能力，�
 * [USDP开发指南-HDFS](/USDP/developer/hdfs)
 * [USDP开发指南-Hive](/USDP/developer/hive)
 * [USDP开发指南-Ranger](/USDP/developer/ranger/README)
-* [USDP开发指南-Airflow](/USDP/developer/airflow)
 * [USDP开发指南-Atlas](/USDP/developer/atlas)
+
+## 任务调度
+
+大数据业务的开发者用户在通过使用 USDP 智能大数据平台环境，可借助 USDP 提供多种调度管理服务，协助用户完成高效管理任务的执行计划。
+
+* [调度服务-UDS](/USDP/schedule/uds)
+* [调度服务-Airflow](/USDP/schedule/airflow)
+
 ## 产品价格
 
 本章节为您介绍 USDP 产品的计费方式和具体价格。

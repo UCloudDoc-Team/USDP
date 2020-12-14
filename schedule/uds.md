@@ -8,7 +8,7 @@ UCloud Data Studio（简称 UDS），是 UCloud 推出的智能化、轻量级�
 
 点击 USDP 控制台左侧导航菜单 <kbd>服务管理</kbd> - <kbd>调度类</kbd> - <kbd>UDS</kbd> ，进入UDS详情页，点击 <kbd>Web UIs</kbd> 即可打开当前集群的 UDS 任务管理服务控制台。
 
-![](../images/schedule/uds/uds入口.png)
+![](../images/schedule/uds/uds_into.png)
 
 ![](../images/schedule/uds/uds_login.png)
 

@@ -38,7 +38,7 @@
 
 ![node_usdp_console_entrance](../../images/operate/node/node_usdp_console_login.png)
 
-在USDP控制台左侧导航栏 “服务管理”，USDP已将该集群所部署使用的所有大数据服务组件按以下6类统一归类，可点击前往查看各类中相关组件服务的管理操作方法：
+在USDP控制台左侧导航栏 “服务管理”，USDP已将该集群所部署使用的所有大数据服务组件按以下7类统一归类，可点击前往查看各类中相关组件服务的管理操作方法：
 
 - [计算类服务管理](/USDP/operate/service/compute_kind)
 - [存储类服务管理](/USDP/operate/service/storage_kind)

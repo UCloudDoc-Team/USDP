@@ -24,6 +24,7 @@ USDP 构建于 UCloud 的云服务上，无缝集成云端 IaaS 资源能力，�
 * [监控管理-指南](/USDP/operate/monitor/README)
 * [告警管理-指南](/USDP/operate/alarm/README)
 * [配置openvpn访问集群内网](/USDP/operate/openvpn)
+* [各服务Web UIs登陆账号](/USDP/operate/login)
 
 ## 开发指南
 
@@ -34,6 +35,7 @@ USDP 构建于 UCloud 的云服务上，无缝集成云端 IaaS 资源能力，�
 * [USDP开发指南-Hive](/USDP/developer/hive)
 * [USDP开发指南-Ranger](/USDP/developer/ranger/README)
 * [USDP开发指南-Airflow](/USDP/developer/airflow)
+* [USDP开发指南-Atlas](/USDP/developer/atlas)
 ## 产品价格
 
 本章节为您介绍 USDP 产品的计费方式和具体价格。

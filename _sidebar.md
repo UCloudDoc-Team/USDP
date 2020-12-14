@@ -26,6 +26,7 @@
       * [通知组管理](/USDP/operate/alarm/notification_group)
       * [告警设置](/USDP/operate/alarm/set_alarm)
     * [配置openvpn访问集群内网](/USDP/operate/openvpn)
+    * [各服务Web UIs登陆账号](/USDP/operate/login)
 * 开发指南
     * [各服务部署规则](/USDP/developer/rule)
     * [USDP开发指南-HDFS](/USDP/developer/hdfs)
@@ -35,5 +36,6 @@
       * [HDFS配置Ranger](/USDP/developer/ranger/ranger_hdfs)
       * [Hive配置Ranger](/USDP/developer/ranger/ranger_hive)
     * [USDP开发指南-Airflow](/USDP/developer/airflow)
+    * [USDP开发指南-Atlas](/USDP/developer/atlas)
 * [产品价格](/USDP/price)
 

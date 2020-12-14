@@ -31,6 +31,7 @@
     * [各服务部署规则](/USDP/developer/rule)
     * [USDP开发指南-HDFS](/USDP/developer/hdfs)
     * [USDP开发指南-Hive](/USDP/developer/hive)
+    * [USDP开发指南-HBase](/USDP/developer/hbase)
     * USDP开发指南-Ranger
       * [Ranger-开发指南](/USDP/developer/ranger/README)
       * [HDFS配置Ranger](/USDP/developer/ranger/ranger_hdfs)

@@ -35,7 +35,7 @@ HDFS 是一个具有高容错、高吞吐特性的分布式文件系统。HDFS �
 /srv/udp/1.0.0.0/hdfs/bin/hadoop fs -get [-p] [-ignoreCrc] [-crc]
 ~~~
 
-?>注：更多关于HDFS的基本操作指令，请参考 *hadoop fs -help* </br>上传文件、下载文件时，注意切换用户为 “hadoop”
+?>注：更多关于HDFS的基本操作指令，请参考 *hadoop fs -help* </br>上传文件、下载文件时，注意切换系统用户为 “hadoop”
 
 
 
@@ -75,8 +75,10 @@ USDP 集群默认开启 HDFS NameNode 组件的高可用，同一时刻，只有
 * 上传文件请求
 
   ~~~shell
-  curl -i -X PUT -T usdp.txt "http://<DataNode Hostname>:50075/webhdfs/v1/tmp/ucloud.txt?op=CREATE&namenoderpcaddress=<ClusterName>&overwrite=false"
+  curl -i -X PUT -T ucloud.txt "http://<DataNode Hostname>:50075/webhdfs/v1/tmp/ucloud.txt?op=CREATE&namenoderpcaddress=<ClusterName>&overwrite=false"
   ~~~
+  
+  ?> 上传文件可能需要在 “&overwrite=false” 参数末尾追加 “&user.name=hadoop”
 
 ### 2.2 追加文件
 
@@ -108,6 +110,8 @@ USDP 集群默认开启 HDFS NameNode 组件的高可用，同一时刻，只有
   ~~~shell
   curl -i -X POST -T append_ucloud.txt "http://<DataNode Hostname>:50075/webhdfs/v1/tmp/ucloud.txt?op=APPEND&namenoderpcaddress=<ClusterName>"
   ~~~
+  
+  ?> 追加文件可能需要在 “&overwrite=false” 参数末尾追加“&user.name=hadoop”
 
 ### 2.3  读取文件
 
@@ -120,6 +124,12 @@ curl -i -L "http://<ActiveNameNode Hostname>:50070/webhdfs/v1/tmp/ucloud.txt?op=
 ~~~shell
 curl -i -X DELETE "http://<ActiveNameNode Hostname>:50070/webhdfs/v1/tmp/ucloud.txt?op=DELETE"
 ~~~
+
+?> 删除文件可能需要在 “&?op=DELETE” 参数末尾追加“&user.name=hadoop”
+
+
+
+
 
 
 

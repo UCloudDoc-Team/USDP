@@ -5,11 +5,8 @@
 USDP支持的节点机型有：
 
 - [快杰机型](/USDP/price?id=快杰机型)
-
 - [普通机型](/USDP/price?id=普通机型)
-
 - [SSD机型](/USDP/price?id=SSD机型)
-
 - [物理机型](/USDP/price?id=物理机型)
 
 

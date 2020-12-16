@@ -4,6 +4,8 @@ HDFS 是一个具有高容错、高吞吐特性的分布式文件系统。HDFS �
 
 ?>注：下面以 USDP V1.0.0.0 版本为例进行说明。
 
+
+
 ## 1. HFDS 基础操作
 
 - ### 查询文件
@@ -33,7 +35,9 @@ HDFS 是一个具有高容错、高吞吐特性的分布式文件系统。HDFS �
 /srv/udp/1.0.0.0/hdfs/bin/hadoop fs -get [-p] [-ignoreCrc] [-crc]
 ~~~
 
-?>注：更多请参考 hadoop fs -help`
+?>注：更多关于HDFS的基本操作指令，请参考 *hadoop fs -help* </br>上传文件、下载文件时，注意切换用户为 “hadoop”
+
+
 
 ## 2. WebHDFS 接口
 
@@ -117,6 +121,8 @@ curl -i -L "http://<ActiveNameNode Hostname>:50070/webhdfs/v1/tmp/ucloud.txt?op=
 curl -i -X DELETE "http://<ActiveNameNode Hostname>:50070/webhdfs/v1/tmp/ucloud.txt?op=DELETE"
 ~~~
 
+
+
 ## 3.  HttpFS 接口
 
 HttpFS 与 WebHDFS 的区别是：HttpFS 不需要客户端访问集群的每一个节点，只需授权访问启动了 HttpFS 服务的单台机器即可。由于 HttpFS 是在内嵌的 Tomcat 中一个 Web 应用，因此性能上会受到一些限制。
@@ -164,6 +170,8 @@ curl -i -L "http://<HttpFS Hostname>:14000/webhdfs/v1/tmp/httpfs_ucloud.txt?op=O
 ~~~shell
 curl -i -X DELETE "http://<HttpFS Hostname>:14000/webhdfs/v1/tmp/httpfs_ucloud.txt?op=DELETE&user.name=hadoop"
 ~~~
+
+
 
 ## 4. HDFS 日常运维
 

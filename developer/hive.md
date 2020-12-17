@@ -51,7 +51,7 @@ Hive Cli是Hive服务提供的一个方便操作Hive表的客户端。其基本�
 
 
 
-?>USDP未将HIVE相关服务的命令添加至环境变量，用户需要键入命令绝对绝对路径来使用，如上情景示例。</br>为便于开发者使用，建议将HDFS相关指令添加至环境变量中，参考如下：</br> 1. 编辑/etc/profile文件，并在文件末尾添加如下行内容</br>export PATH=$PATH:/srv/udp/1.0.0.0/hive/bin</br>2.保存，执行 source /etc/profile 命令使修改生效。
+?>USDP未将HIVE相关服务的命令添加至环境变量，用户需要键入命令绝对绝对路径来使用，如上情景示例。</br>为便于开发者使用，建议将HIVE相关指令添加至环境变量中，参考如下：</br> 1. 编辑/etc/profile文件，并在文件末尾添加如下行内容</br>export PATH=$PATH:/srv/udp/1.0.0.0/hive/bin</br>2.保存，执行 source /etc/profile 命令使修改生效。
 
 ## 2. Beeline
 

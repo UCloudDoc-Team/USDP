@@ -36,7 +36,6 @@
       * [Ranger-开发指南](/USDP/developer/ranger/README)
       * [HDFS配置Ranger](/USDP/developer/ranger/ranger_hdfs)
       * [Hive配置Ranger](/USDP/developer/ranger/ranger_hive)
-    * [USDP开发指南-Airflow](/USDP/developer/airflow)
     * [USDP开发指南-Atlas](/USDP/developer/atlas)
 * 任务调度
     * [调度服务-UDS](/USDP/schedule/uds)

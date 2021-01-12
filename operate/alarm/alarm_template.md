@@ -68,7 +68,7 @@ USDP已预置了如AIRFLOW、ALERTMANAGER、ELASTICSEARCH、FLINK、GRAFANA、HB
 
 ### 给监控指标设置通知组
 
-无论是USDP系统预置的告警模板，还是用户自定义的告警模板，用户均可对每一条监控指标独立规划告警 [通知组](/USDP/operate/alarm/notification?id=通知组) ，以便于用户根据其组织架构及大数据环境使用人员的不同来灵活配置告警内容。如下图所示：
+无论是USDP系统预置的告警模板，还是用户自定义的告警模板，用户均可对每一条监控指标独立规划告警 [通知组](/USDP/operate/alarm/notification_group) ，以便于用户根据其组织架构及大数据环境使用人员的不同来灵活配置告警内容。如下图所示：
 
 ![](../../images/operate/alarm/alarm_template/alarm_usdp_tamplate_rule_setnotify.png)
 
@@ -92,7 +92,7 @@ USDP已预置了如AIRFLOW、ALERTMANAGER、ELASTICSEARCH、FLINK、GRAFANA、HB
 
 用户亦可在您自己的集群上来设置绑定哪些告警模板，相关操作请参考 [告警设置](/USDP/operate/alarm/set_alarm) 指南。
 
-?>为告警模板绑定集群后，即代表此集群已使用该模板中的所有监控指标，对该集群中的相应服务实施监控，当集群一但发生相关告警规则设置的条件时，即会触发告警，USDP将会通过该模板中事先设置好的 [通知组](/USDP/operate/alarm/notification?id=通知组) 来发送告警详细信息。
+?>为告警模板绑定集群后，即代表此集群已使用该模板中的所有监控指标，对该集群中的相应服务实施监控，当集群一但发生相关告警规则设置的条件时，即会触发告警，USDP将会通过该模板中事先设置好的 [通知组](/USDP/operate/alarm/notification_group) 来发送告警详细信息。
 
 ## 新建告警模板
 

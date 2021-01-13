@@ -1,6 +1,6 @@
 
 * [产品概述](/USDP/README)
-* [产品特点](/USDP/intro.md)
+* [功能介绍](/USDP/intro)
 * 操作指南
     * [集群创建-指南](/USDP/operate/cluster)
     * 节点管理

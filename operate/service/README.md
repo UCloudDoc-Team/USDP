@@ -34,6 +34,8 @@
 
 ![node_ucloud_usdp_console_entrance](../../images/operate/node/node_ucloud_usdp_console_entrance.png)
 
+!>为防止USDP被恶意盗取登陆用户及密码，USDP集群默认的URL会在一定时间后过期，可能会对用户的操作带来些许不便，请谅解。</br>其他稳定且便捷的访问方式，建议参考 [集群访问及测试-指南](/USDP/operate/access/README) 进行配置。
+
 - 登陆USDP控制台
 
 ![node_usdp_console_entrance](../../images/operate/node/node_usdp_console_login.png)

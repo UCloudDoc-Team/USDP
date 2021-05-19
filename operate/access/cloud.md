@@ -50,7 +50,7 @@
 
 **Step4：**ping测试USDP集群各个节点的“完全限定域名”（主机名）。
 
-![usdp_internet_access_73311](/Users/user/Documents/UCLOUD/BDPL/*文档中心/Documents-Github/USDP/images/operate/access/usdp_internet_access_73311.png)
+![usdp_internet_access_73311](../../images/operate/access/usdp_internet_access_73311.png)
 
 **Step5：**在本地PC浏览器中直接打开USDP管理控制台
 
@@ -60,7 +60,7 @@ http://<your_master1_ip>
 
 或输入Master1节点的内网IP地址。
 
-![usdp_internet_access_74043](/Users/user/Documents/UCLOUD/BDPL/*文档中心/Documents-Github/USDP/images/operate/access/usdp_internet_access_74043.png)
+![usdp_internet_access_74043](../../images/operate/access/usdp_internet_access_74043.png)
 
 **Step6：**访问分布在各节点上的其他大数据服务WebUIs
 
@@ -72,7 +72,7 @@ http://usdp-1******-monitor1:3000
 
 或者可以在USDP管理控制台中，主动查看集群已安装的各个大数据服务的WebUIs；参见：[ 服务Web UIs便捷访问](/USDP/operate/service/compute_kind?id=yarn-服务web-uis便捷访问) 。
 
-![usdp_internet_access_73746](/Users/user/Documents/UCLOUD/BDPL/*文档中心/Documents-Github/USDP/images/operate/access/usdp_internet_access_73746.png)
+![usdp_internet_access_73746](../../images/operate/access/usdp_internet_access_73746.png)
 
-![usdp_internet_access_73840](/Users/user/Documents/UCLOUD/BDPL/*文档中心/Documents-Github/USDP/images/operate/access/usdp_internet_access_73840.png)
+![usdp_internet_access_73840](../../images/operate/access/usdp_internet_access_73840.png)
 

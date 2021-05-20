@@ -22,6 +22,8 @@
 
 **Step1：**创建或更新云端防火墙策略
 
+--------
+
 参见 [防火墙操作指南](https://docs.ucloud.cn/unet/firewall/guide) ，为云端USDP环境各节点准备防火墙及规则备用。
 
 ![usdp_internet_access_051851257](../../images/operate/access/usdp_internet_access_051851257.png)

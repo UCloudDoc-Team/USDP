@@ -57,7 +57,7 @@
 106.75.xxx.xxx	usdp-1******-core3
 ~~~
 
-?> **如上样例所示：**左侧为USDP各个节点已 **绑定的EIP** 地址，右侧为对应节点的“完全限定域名”（主机名）。
+?> **样例所示：**左侧为USDP各个节点已 **绑定的EIP** 地址，右侧为对应节点的“完全限定域名”（主机名）。
 
 --------
 
@@ -86,3 +86,4 @@ http://usdp-1******-monitor1:3000
 如上示例URL，即会打开USDP大数据集群的监控查看页面Grafana。
 
 或者可以在USDP管理控制台中，主动查看集群已安装的各个大数据服务的WebUIs；参见：[ 服务Web UIs便捷访问](/USDP/operate/service/compute_kind?id=yarn-服务web-uis便捷访问) 。
+

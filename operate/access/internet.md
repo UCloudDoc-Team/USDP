@@ -6,7 +6,7 @@
 
 该方式配置相对简单，适用于集群规模较小，或服务测试等临时情况，该方式的缺点是，需为集群的各个节点单独绑定EIP地址，会增加用户云端管理员维护复杂度。
 
-#### 工具及辅助产品：
+### 工具及辅助产品：
 
 1. 本地PC的hosts更改；
 
@@ -18,7 +18,7 @@
 
 3. 云端 [防火墙](https://docs.ucloud.cn/unet/firewall/guide) 策略；
 
-#### 动手配置：
+### 动手配置：
 
 **Step1：**创建或更新云端防火墙策略
 
@@ -28,11 +28,15 @@
 
 ?> **如上图所示：**</br>- 防火墙规则中，协议及端口，用户可根据实际需要进行灵活调整。</br>- 建议通过添加源地址，达到将互联网中无关IP来源的请求过滤掉的目的，使此方式访问集群更安全。
 
+
+
 **Step2：**[创建EIP](https://docs.ucloud.cn/unet/eip/guide?id=%e7%94%b3%e8%af%b7%e5%bc%b9%e6%80%a7ip)，并在USDP <kbd>集群管理</kbd> - <kbd>节点管理</kbd> 中，为集群各节点绑定EIP；
 
 参见[在公有云端usdp集群资源节点管理](/USDP/operate/node/README?id=在公有云端usdp集群资源节点管理) 。
 
 ![usdp_internet_access_051853403](../../images/operate/access/usdp_internet_access_051853403.png)
+
+
 
 **Step3：**配置本地PC的hosts文件
 
@@ -51,7 +55,9 @@
 
 ?> **如上样例所示：**左侧为USDP各个节点已 **绑定的EIP** 地址，右侧为对应节点的“完全限定域名”（主机名）。
 
-#### 效果验证：
+
+
+### 效果验证：
 
 **Step4：**在本地PC浏览器中直接打开USDP管理控制台
 
@@ -64,6 +70,8 @@ http://<your_master1_ip>
 或在已创建的USDP集群条目右侧，点击 <kbd>访问USDP</kbd> 按钮，进入USDP自有管理控制台。
 
 ![node_ucloud_usdp_console_entrance](../../images/operate/node/node_ucloud_usdp_console_entrance.png)
+
+
 
 **Step5：**访问分布在各节点上的其他大数据服务WebUIs
 

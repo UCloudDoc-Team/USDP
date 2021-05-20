@@ -3,12 +3,12 @@
 * [功能介绍](/USDP/intro)
 * 操作指南
     * [集群创建-指南](/USDP/operate/cluster)
-    * 集群访问及测试
+    * 集群访问
       * [集群访问及测试-指南](/USDP/operate/access/README)
-      * [方式1：本地直接访问云端USDP集群](/USDP/operate/access/internet)
-      * [方式2：通过云端Windows主机访问USDP集群](/USDP/operate/access/cloud)
-      * [方式3：配置openvpn访问USDP集群](/USDP/operate/access/openvpn)
-      * [各服务Web UIs登陆账号](/USDP/operate/access/login)
+      * [访问方式1：本地直接访问云端USDP集群](/USDP/operate/access/internet)
+      * [访问方式2：通过云端Windows主机访问USDP集群](/USDP/operate/access/cloud)
+      * [访问方式3：配置openvpn访问USDP集群](/USDP/operate/access/openvpn)
+      * [参考：USDP各服务Web UIs登陆账号](/USDP/operate/access/login)
     * 节点管理
       * [节点管理-指南](/USDP/operate/node/README)
       * [公有云端资源节点管理](/USDP/operate/node/cloud_node)

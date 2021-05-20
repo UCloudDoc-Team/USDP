@@ -46,7 +46,7 @@ UCloud提供了友好且易于部署的管理服务，用户可一键式操作�
 大数据环境的管理员用户或开发者用户，可通过本章节了解到 USDP 各个模块的文档介绍，帮助您快速上手 USDP，了解如何在公有云环境中使用及管理 USDP 集群及服务的具体操作方法。
 
 * [集群创建-指南](/USDP/operate/cluster)
-* [集群访问及测试-指南](/USDP/operate/access/README)
+* [集群访问-指南](/USDP/operate/access/README)
 * [节点管理-指南](/USDP/operate/node/README)
 * [服务管理-指南](/USDP/operate/service/README)
 * [监控管理-指南](/USDP/operate/monitor/README)

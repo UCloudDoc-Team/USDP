@@ -2,9 +2,9 @@
 
 #### 配置方式概述：
 
-​		该方式，是为USDP的各个节点，单独绑定 [EIP](https://docs.ucloud.cn/unet/eip/guide?id=%e7%94%b3%e8%af%b7%e5%bc%b9%e6%80%a7ip) ，结合云端主机 [防火墙](https://docs.ucloud.cn/unet/firewall/guide) 策略对USDP各节点实现访问限制和保护，并直接通过用户本地PC浏览器来访问USDP管理控制台。
+该方式，是为USDP的各个节点，单独绑定 EIP ，结合云端防火墙策略对USDP各节点实现访问限制和保护，并直接通过用户本地PC浏览器来访问USDP管理控制台。
 
-​		该方式配置相对简单，适用于集群规模较小，或服务测试等临时情况，该方式的缺点是，需为集群的各个节点单独绑定EIP地址，会增加用户云端管理员维护复杂度。
+该方式配置相对简单，适用于集群规模较小，或服务测试等临时情况，该方式的缺点是，需为集群的各个节点单独绑定EIP地址，会增加用户云端管理员维护复杂度。
 
 #### 工具及辅助产品：
 
@@ -12,21 +12,21 @@
 
    USDP通过“完全限定域名”并在本地解析需要访问的目的IP地址的。
 
-2. N个EIP；
+2. 需N个 [EIP](https://docs.ucloud.cn/unet/eip/guide?id=%e7%94%b3%e8%af%b7%e5%bc%b9%e6%80%a7ip)；
 
    可根据实际需要调整。
 
-3. 主机防火墙；
+3. 云端 [防火墙](https://docs.ucloud.cn/unet/firewall/guide) 策略；
 
 #### 动手配置：
 
 **Step1：**创建或更新云端防火墙策略
 
-​		参见 [防火墙操作指南](https://docs.ucloud.cn/unet/firewall/guide) ，为云端USDP环境各节点准备防火墙及规则备用。
+参见 [防火墙操作指南](https://docs.ucloud.cn/unet/firewall/guide) ，为云端USDP环境各节点准备防火墙及规则备用。
 
 ![usdp_internet_access_051851257](../../images/operate/access/usdp_internet_access_051851257.png)
 
-?> **如上图所示：**</br>- 防火墙规则中，协议及端口，用户可根据实际需要进行灵活调整。</br>- 建议通过添加原地址来将互联网中无关的请求来源IP过滤掉，使方式访问集群更安全。
+?> **如上图所示：**</br>- 防火墙规则中，协议及端口，用户可根据实际需要进行灵活调整。</br>- 建议通过添加源地址，达到将互联网中无关IP来源的请求过滤掉的目的，使此方式访问集群更安全。
 
 **Step2：**[创建EIP](https://docs.ucloud.cn/unet/eip/guide?id=%e7%94%b3%e8%af%b7%e5%bc%b9%e6%80%a7ip)，并在USDP <kbd>集群管理</kbd> - <kbd>节点管理</kbd> 中，为集群各节点绑定EIP；
 
@@ -58,6 +58,8 @@
 ~~~URL
 http://<your_master1_ip>
 ~~~
+
+或输入Master1节点的“完全限定域名”；
 
 或在已创建的USDP集群条目右侧，点击 <kbd>访问USDP</kbd> 按钮，进入USDP自有管理控制台。
 

@@ -36,8 +36,6 @@
 
 **Step2：**[创建EIP](https://docs.ucloud.cn/unet/eip/guide?id=%e7%94%b3%e8%af%b7%e5%bc%b9%e6%80%a7ip)，并在USDP <kbd>集群管理</kbd> - <kbd>节点管理</kbd> 中，为集群各节点绑定EIP；
 
---------
-
 参见[在公有云端usdp集群资源节点管理](/USDP/operate/node/README?id=在公有云端usdp集群资源节点管理) 。
 
 ![usdp_internet_access_051853403](../../images/operate/access/usdp_internet_access_051853403.png)

@@ -67,7 +67,6 @@ UCloud提供了友好且易于部署的管理服务，用户可一键式操作�
 
 大数据业务的开发者用户在通过使用 USDP 智能大数据平台环境，可借助 USDP 提供多种调度管理服务，协助用户完成高效管理任务的执行计划。
 
-* [调度服务-UDS](/USDP/schedule/uds)
 * [调度服务-Airflow](/USDP/schedule/airflow)
 
 ## 产品价格

@@ -4,7 +4,7 @@ UCloud Data Studio（简称 UDS），是 UCloud 推出的是一款轻量级、�
 
 
 
-UDS 是基于开源工作流任务调度系统 Apache DolphinScheduler（[https://dolphinscheduler.apache.org/](https://dolphinscheduler.apache.org/)）二次开发而来，感谢 DolphinScheduler 开源社区所做的贡献。
+UDS 是基于开源工作流任务调度系统 Apache DolphinScheduler（[https://dolphinscheduler.apache.org/](https://dolphinscheduler.apache.org/)）二次开发而来，由衷感谢 DolphinScheduler 为开源社区所做的贡献。
 
 
 

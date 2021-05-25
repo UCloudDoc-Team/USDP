@@ -42,7 +42,6 @@
       * [Hive配置Ranger](/USDP/developer/ranger/ranger_hive)
     * [USDP开发指南-Atlas](/USDP/developer/atlas)
 * 任务调度
-    * [调度服务-UDS](/USDP/schedule/uds)
     * [调度服务-Airflow](/USDP/schedule/airflow)
 * [产品价格](/USDP/price)
 

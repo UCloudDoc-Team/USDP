@@ -2,7 +2,13 @@
 
 UCloud Data Studio（简称 UDS），是 UCloud 推出的是一款轻量级、分布式、易扩展的可视化DAG工作流任务调度系统，能够帮您快速高效实现大数据的分析任务工作流管理能力。
 
-### USD的特点：
+
+
+UDS 是基于开源工作流任务调度系统 Apache DolphinScheduler（[https://dolphinscheduler.apache.org/](https://dolphinscheduler.apache.org/)）二次开发而来，感谢 DolphinScheduler 开源社区所做的贡献。
+
+
+
+### UDS的特点：
 
 - **稳定**
   - **单点故障：**支持去中心化的Master和多Worker；

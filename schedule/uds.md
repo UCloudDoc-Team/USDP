@@ -32,7 +32,7 @@ UDS 是基于开源工作流任务调度系统 Apache DolphinScheduler（[https:
 
 ![2](../images/schedule/uds/uds_login.png)
 
-UDS管理员账号，参见 [各服务Web UIs登录账号](/USDP/operate/login) 指南文档。
+UDS管理员账号，参见 [各服务Web UIs登录账号](/USDP/operate/access/login) 指南文档。
 
 ## 2. 概览（Dashboard）
 

@@ -44,5 +44,4 @@
 * 任务调度
     * [调度服务-Airflow](/USDP/schedule/airflow)
 * [产品价格](/USDP/price)
-* [更新历史](/USDP/update_history)
 

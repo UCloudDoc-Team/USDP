@@ -110,7 +110,7 @@ policy.download.auth.users: hadoop
 
 ![ranger-20201106132041822](../../images/developer/ranger/ranger-20201106132041822.png)
 
-最后，点击 <kbd>Add</kbd> 按钮，此时Ranger Web UI的Service Manager页面显示如下：
+然后，点击 <kbd>Add</kbd> 按钮，此时Ranger Web UI的Service Manager页面显示如下：
 
 ![ranger-202011242k385d789](../../images/developer/ranger/ranger-202011242k385d789.png)
 
@@ -186,7 +186,7 @@ drwxr-xr-x   - hadoop supergroup          0 2020-11-06 11:28 /user
 
 同时，在 Resource Path 中输入HDFS的根目录：/  并键入回车，同时，要确保 recursive 滑块处于开启状态。
 
-最终配置信息，如下图所示：
+配置信息，如下图所示：
 
 ![ranger-20201106134404122](../../images/developer/ranger/ranger-20201106134404122.png)
 

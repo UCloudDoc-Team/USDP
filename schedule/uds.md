@@ -36,7 +36,7 @@ UDS管理员账号，参见 [各服务Web UIs登录账号](/USDP/operate/access/
 
 ## 2. 概览（Dashboard）
 
-进入UDS后，展示给用户的首个页面，即为 Dashboard 页，其中显示了该用户（非管理）所有项目的重点指标、任务状态、当天任务完成情况、运行时长TOP5和任务失败TOP5。如下图所示：
+进入UDS后，展示给用户的初始页面，即为 Dashboard 页，其中显示了该用户（非管理）所有项目的重点指标、任务状态、当天任务完成情况、运行时长TOP5和任务失败TOP5。如下图所示：
 
 ![](../images/schedule/uds/dashboard.png)
 

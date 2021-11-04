@@ -9,7 +9,7 @@
 - [开始创建集群资源](/USDP/operate/cluster?id=开始创建集群资源)
 - [开始部署集群服务和组件](/USDP/operate/cluster?id=开始部署集群服务和组件)
 
-参考本篇指南，开始创建并部署您的第一个USDP集群吧。
+参考本篇指南，开始创建并部署您的首个USDP集群吧。
 
 
 
@@ -85,7 +85,7 @@
 ![node_ucloud_usdp_console_entrance](../images/operate/node/node_ucloud_usdp_console_entrance.png)
 
 #### 1 进入登录页面登录到USDP管理控制台
-第一次登录需要设置admin用户名的登录密码。如下所示：
+首次登录需要设置admin用户名的登录密码。如下所示：
 ![](../images/operate/cluster/输入登录信息.png)
 
 #### 2 添加服务和组件

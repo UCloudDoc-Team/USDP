@@ -28,7 +28,7 @@ USDP支持通知组管理的能力，结合 [通知组](/USDP/operate/alarm/noti
 
 ## 添加通知组
 
-默认情况下，当第一次执行 “通知组”-“新建” 时，USDP要求必须先添加 “默认通知组”，通知组名称不可更改，勾选 “通知对象” 并点击 <kbd>></kbd> 按钮，再在对话框右下角点击 <kbd>确定</kbd> 按钮，即可完成。如下图所示：
+默认情况下，当首次执行 “通知组”-“新建” 时，USDP要求必须先添加 “默认通知组”，通知组名称不可更改，勾选 “通知对象” 并点击 <kbd>></kbd> 按钮，再在对话框右下角点击 <kbd>确定</kbd> 按钮，即可完成。如下图所示：
 
 ![](../../images/operate/alarm/notification_group/notify_usdp_set_notifygroup_default.png)
 

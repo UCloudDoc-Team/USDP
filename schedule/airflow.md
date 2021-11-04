@@ -43,7 +43,7 @@ from airflow.operators.python_operator import PythonOperator
 def default_options():
     default_args = {
         'owner': 'airflow',  # 拥有者名称
-        'start_date': dates.days_ago(1),  # 第一次开始执行的时间，为 UTC 时间
+        'start_date': dates.days_ago(1),  # 首次开始执行的时间，为 UTC 时间
         'retries': 1,  # 失败重试次数
         'retry_delay': timedelta(seconds=5)  # 失败重试间隔
     }

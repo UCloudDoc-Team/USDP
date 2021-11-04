@@ -85,7 +85,7 @@
 ![node_ucloud_usdp_console_entrance](../images/operate/node/node_ucloud_usdp_console_entrance.png)
 
 #### 1 进入登录页面登录到USDP管理控制台
-首次登录需要设置admin用户名的登录密码。如下所示：
+初始登录需要设置admin用户名的登录密码。如下所示：
 ![](../images/operate/cluster/输入登录信息.png)
 
 #### 2 添加服务和组件

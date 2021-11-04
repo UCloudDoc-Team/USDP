@@ -78,7 +78,7 @@ USDP管理控制台支持对当前Zookeeper服务扩展更多节点。如下图�
 
 ![storage_zk_subpart_add_guide5](../../images/operate/service/storage_kind/storage_zk_subpart_add_guide5.png)
 
-此时，可根据向导中表单要求，选择需要扩展的新集群节点及服务预览等，最后点击“开始部署”即可完成服务扩展操作。
+此时，可根据向导中表单要求，选择需要扩展的新集群节点及服务预览等，点击“开始部署”即可完成服务扩展操作。
 
 ### Zookeeper服务配置文件修改
 
@@ -92,7 +92,7 @@ USDP管理控制台支持对当前Zookeeper服务扩展更多节点。如下图�
 
 ### HDFS 服务详情概览
 
-HDFS服务管理首页展示了HDFS服务的监控指标（NameNode是否存活、NameNode Active正常、JournalNode是否存活、ZKFC是否存活、Datanode死亡数、Datanode存活数、Datanode心跳超时数、HDFS空间使用率、HDFS块丢失数、Block副本损坏个数、坏盘数量、Block个数、HDFS文件及目录个数、HDFS已用容量、HDFS副本不足的Block数、未分配给HDFS的磁盘大小、可用堆内存、初始堆内存、最大堆内存）如下图所示：
+HDFS服务管理首页展示了HDFS服务的监控指标（NameNode是否存活、NameNode Active正常、JournalNode是否存活、ZKFC是否存活、Datanode死亡数、Datanode存活数、Datanode心跳超时数、HDFS空间使用率、HDFS块丢失数、Block副本损坏个数、坏盘数量、Block个数、HDFS文件及目录个数、HDFS已用容量、HDFS副本不足的Block数、未分配给HDFS的磁盘大小、可用堆内存、初始堆内存等）如下图所示：
 
 ![storage_hdfs_details](../../images/operate/service/storage_kind/storage_hdfs_details.png)
 

@@ -83,7 +83,7 @@ client added. Configuration available in: /root/client.ovpn
 
 下载安装Tunnelblick[客户端下载](https://tunnelblick.net/downloads.html)
 
-将client.ovpn拖到Tunnelblick就可以访问vpn server。
+将client.ovpn拖到Tunnelblick即可访问vpn server。
 
 ### Windows端
 

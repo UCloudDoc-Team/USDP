@@ -93,7 +93,7 @@ policy.download.auth.users: hadoop
 
 ![ranger-20201106132041822](../../images/developer/ranger/ranger-20201106132041822.png)
 
-最后，点击 <kbd>Add</kbd> 按钮即可。
+然后，点击 <kbd>Add</kbd> 按钮即可。
 
 ## 添加测试用户
 
@@ -170,7 +170,7 @@ useradd test1
 
 同时，在 Resource Path 中输入：/，并键入回车，同时，要确保 recursive 开关开启。
 
-最终配置如下图所示：
+配置如下图所示：
 
 ![ranger-20201117153018511](../../images/developer/ranger/ranger-20201117153018511.png)
 

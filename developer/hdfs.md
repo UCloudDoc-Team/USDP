@@ -39,7 +39,7 @@ HDFS 是一个具有高容错、高吞吐特性的分布式文件系统。HDFS �
 
 
 
-?>USDP未将HDFS相关服务的命令添加至环境变量，用户需要键入命令绝对绝对路径来使用，如上情景示例。</br>为便于开发者使用，建议将HDFS相关指令添加至环境变量中，参考如下：</br> 1. 编辑/etc/profile文件，并在文件末尾添加如下两行内容</br>export PATH=$PATH:/srv/udp/1.0.0.0/hdfs/bin</br>export PATH=$PATH:/srv/udp/1.0.0.0/hdfs/sbin</br>2.保存，执行 source /etc/profile 命令使修改生效。
+?>USDP未将HDFS相关服务的命令添加至环境变量，用户需要键入命令 Absolute Path 来使用，如上情景示例。</br>为便于开发者使用，建议将HDFS相关指令添加至环境变量中，参考如下：</br> 1. 编辑/etc/profile文件，并在文件末尾添加如下两行内容</br>export PATH=$PATH:/srv/udp/1.0.0.0/hdfs/bin</br>export PATH=$PATH:/srv/udp/1.0.0.0/hdfs/sbin</br>2.保存，执行 source /etc/profile 命令使修改生效。
 
 
 
@@ -81,7 +81,6 @@ USDP 集群默认开启 HDFS NameNode 组件的高可用，同一时刻，只有
   ~~~shell
   curl -i -X PUT -T ucloud.txt "http://<DataNode Hostname>:50075/webhdfs/v1/tmp/ucloud.txt?op=CREATE&namenoderpcaddress=<ClusterName>&overwrite=false&user.name=hadoop"
   ~~~
-  
 
 ### 2.2 追加文件
 
@@ -113,7 +112,6 @@ USDP 集群默认开启 HDFS NameNode 组件的高可用，同一时刻，只有
   ~~~shell
   curl -i -X POST -T append_ucloud.txt "http://<DataNode Hostname>:50075/webhdfs/v1/tmp/ucloud.txt?op=APPEND&namenoderpcaddress=<ClusterName>&user.name=hadoop"
   ~~~
-  
 
 ### 2.3  读取文件
 

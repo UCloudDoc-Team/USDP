@@ -44,4 +44,5 @@
 * 任务调度
     * [调度服务-Airflow](/USDP/schedule/airflow)
 * [产品价格](/USDP/price)
+* [了解USDP私有化部署](usdpdc/README)
 
